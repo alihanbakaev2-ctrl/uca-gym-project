@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Campus Gym",
+      "hasCanvas": false,
+      "bodyTextLen": 333,
+      "bodyTextHash": "fa34b60492f4e5c0d2c7d3e0c915e805264228cb4ee9a5d0a92dd27961126331",
+      "bodyTextPrefix": "Campus Gym Home Library Gym Routines Project skeleton Campus gym",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/skeleton.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Campus Gym",
+      "hasCanvas": false,
+      "bodyTextLen": 333,
+      "bodyTextHash": "fa34b60492f4e5c0d2c7d3e0c915e805264228cb4ee9a5d0a92dd27961126331",
+      "bodyTextPrefix": "Campus Gym Home Library Gym Routines Project skeleton Campus gym",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/skeleton-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/skeleton.json"
+}

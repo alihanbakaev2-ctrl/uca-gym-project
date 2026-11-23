@@ -1,0 +1,128 @@
+:root {
+  color-scheme: light;
+  --bg: #f3f1ea;
+  --ink: #1c1d18;
+  --muted: #5e6056;
+  --line: #ddd8cc;
+  --paper: #fffcf6;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--ink);
+  font: 400 1.05rem/1.5 "Segoe UI", system-ui, sans-serif;
+}
+
+a { color: inherit; }
+
+.top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem 1.5rem;
+  padding: 1rem 1.25rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.mark {
+  font-weight: 650;
+  text-decoration: none;
+  letter-spacing: -0.02em;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
+
+nav a {
+  min-height: 2.75rem;
+  display: inline-flex;
+  align-items: center;
+  padding: 0 0.8rem;
+  text-decoration: none;
+  color: var(--muted);
+  border-radius: 0.4rem;
+}
+
+nav a[aria-current="page"] {
+  color: var(--ink);
+  background: var(--paper);
+}
+
+main {
+  max-width: 40rem;
+  padding: 2.5rem 1.25rem 4rem;
+}
+
+h1 {
+  margin: 0.25rem 0 0;
+  font-size: 2.25rem;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  font-weight: 650;
+}
+
+.kicker {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.lead {
+  margin: 1rem 0 0;
+  color: var(--muted);
+  text-wrap: pretty;
+}
+
+.download {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.75rem;
+  margin-top: 1.25rem;
+  padding: 0 1rem;
+  background: var(--ink);
+  color: var(--paper);
+  text-decoration: none;
+  font-weight: 650;
+  border-radius: 0.5rem;
+}
+
+.sections {
+  list-style: none;
+  margin: 2rem 0 0;
+  padding: 0;
+  display: grid;
+  gap: 0.75rem;
+}
+
+.sections li {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 0.9rem;
+  padding: 1rem 1.1rem;
+}
+
+.sections a {
+  font-weight: 650;
+  text-decoration: none;
+}
+
+.sections span {
+  display: block;
+  margin-top: 0.2rem;
+  color: var(--muted);
+}
+
+.back {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.75rem;
+  font-weight: 650;
+}
