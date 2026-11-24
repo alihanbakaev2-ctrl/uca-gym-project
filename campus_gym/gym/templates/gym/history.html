@@ -1,0 +1,27 @@
+{% extends "gym/base.html" %}
+
+{% block title %}History · Campus Gym{% endblock %}
+
+{% block content %}
+  <p class="kicker">Saved sessions</p>
+  <h1>History</h1>
+  {% if sessions %}
+    <ul class="workout-list">
+      {% for session in sessions %}
+        <li>
+          <a href="{% url 'workout_summary' session.pk %}">
+            <strong>{{ session.workout.name }}</strong>
+            <span>
+              {{ session.get_status_display }} ·
+              {{ session.total_sets }} sets ·
+              {{ session.total_reps|default:0 }} reps ·
+              {{ session.started_at|date:"M j, g:i a" }}
+            </span>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p class="empty">No finished workouts yet. Start one from My Workouts.</p>
+  {% endif %}
+{% endblock %}

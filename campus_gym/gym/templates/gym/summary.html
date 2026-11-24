@@ -1,0 +1,27 @@
+{% extends "gym/base.html" %}
+
+{% block title %}Summary · {{ session.workout.name }}{% endblock %}
+
+{% block content %}
+  <p class="kicker">
+    {% if session.status == "abandoned" %}Ended early{% else %}Workout complete{% endif %}
+  </p>
+  <h1>{{ session.workout.name }}</h1>
+  <ul class="stats">
+    <li><strong>{{ minutes }}:{% if seconds < 10 %}0{% endif %}{{ seconds }}</strong><span>Time</span></li>
+    <li><strong>{{ total_sets }}</strong><span>Sets</span></li>
+    <li><strong>{{ total_reps }}</strong><span>Reps</span></li>
+    <li><strong>{{ volume }}</strong><span>Volume kg</span></li>
+  </ul>
+  <ul class="log-list">
+    {% for log in logs %}
+      <li>
+        <strong>{{ log.item.exercise.name }}</strong>
+        <span>Set {{ log.set_number }} · {{ log.reps }} reps{% if log.weight %} · {{ log.weight }} kg{% endif %}</span>
+      </li>
+    {% empty %}
+      <li><p class="empty">No sets were logged.</p></li>
+    {% endfor %}
+  </ul>
+  <p><a class="button" href="{% url 'workouts' %}">Back to my workouts</a></p>
+{% endblock %}

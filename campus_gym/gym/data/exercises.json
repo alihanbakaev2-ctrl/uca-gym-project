@@ -1,0 +1,2812 @@
+[
+  {
+    "id": "barbell-bench-press",
+    "name": "Barbell Bench Press",
+    "primary": "Chest",
+    "secondary": [
+      "Shoulders",
+      "Triceps"
+    ],
+    "equipment": "Barbell",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Plant your feet and pinch the shoulder blades.",
+      "Lower the bar to the mid-chest.",
+      "Press up without bouncing.",
+      "Keep the wrists stacked over the elbows."
+    ]
+  },
+  {
+    "id": "incline-barbell-press",
+    "name": "Incline Barbell Press",
+    "primary": "Chest",
+    "secondary": [
+      "Shoulders",
+      "Triceps"
+    ],
+    "equipment": "Barbell",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Set the bench around 30 degrees.",
+      "Touch the bar high on the chest.",
+      "Drive the bar back over the shoulders."
+    ]
+  },
+  {
+    "id": "decline-barbell-press",
+    "name": "Decline Barbell Press",
+    "primary": "Chest",
+    "secondary": [
+      "Triceps"
+    ],
+    "equipment": "Barbell",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Hook the feet and keep the hips down.",
+      "Lower to the lower chest.",
+      "Press without flaring the elbows wide."
+    ]
+  },
+  {
+    "id": "dumbbell-bench-press",
+    "name": "Dumbbell Bench Press",
+    "primary": "Chest",
+    "secondary": [
+      "Shoulders",
+      "Triceps"
+    ],
+    "equipment": "Dumbbell",
+    "difficulty": "Beginner",
+    "cues": [
+      "Start with the bells over the chest.",
+      "Lower until the elbows are just below the bench.",
+      "Press the bells up and slightly inward."
+    ]
+  },
+  {
+    "id": "incline-dumbbell-press",
+    "name": "Incline Dumbbell Press",
+    "primary": "Chest",
+    "secondary": [
+      "Shoulders",
+      "Triceps"
+    ],
+    "equipment": "Dumbbell",
+    "difficulty": "Beginner",
+    "cues": [
+      "Keep the bench at a modest incline.",
+      "Lower the bells beside the upper chest.",
+      "Press until the arms are long, not locked hard."
+    ]
+  },
+  {
+    "id": "dumbbell-fly",
+    "name": "Dumbbell Fly",
+    "primary": "Chest",
+    "secondary": [
+      "Shoulders"
+    ],
+    "equipment": "Dumbbell",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Soft bend in the elbows stays fixed.",
+      "Open only until the chest stretches.",
+      "Sweep the bells back together over the chest."
+    ]
+  },
+  {
+    "id": "incline-dumbbell-fly",
+    "name": "Incline Dumbbell Fly",
+    "primary": "Chest",
+    "secondary": [
+      "Shoulders"
+    ],
+    "equipment": "Dumbbell",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Lie on a low incline.",
+      "Open the arms with a soft elbow.",
+      "Squeeze the chest as the bells meet."
+    ]
+  },
+  {
+    "id": "cable-crossover",
+    "name": "Cable Crossover",
+    "primary": "Chest",
+    "secondary": [
+      "Shoulders"
+    ],
+    "equipment": "Cable",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Step forward so the cables stay loaded.",
+      "Bring the hands together in front of the chest.",
+      "Control the return."
+    ]
+  },
+  {
+    "id": "low-cable-fly",
+    "name": "Low Cable Fly",
+    "primary": "Chest",
+    "secondary": [
+      "Shoulders"
+    ],
+    "equipment": "Cable",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Set the pulleys low.",
+      "Arc the handles up toward the chest.",
+      "Stop before the shoulders shrug."
+    ]
+  },
+  {
+    "id": "pec-deck",
+    "name": "Pec Deck",
+    "primary": "Chest",
+    "secondary": [
+      "Shoulders"
+    ],
+    "equipment": "Machine",
+    "difficulty": "Beginner",
+    "cues": [
+      "Match the seat so the elbows stay at chest height.",
+      "Squeeze until the arms are in front of you.",
+      "Do not let the stack slam."
+    ]
+  },
+  {
+    "id": "machine-chest-press",
+    "name": "Machine Chest Press",
+    "primary": "Chest",
+    "secondary": [
+      "Shoulders",
+      "Triceps"
+    ],
+    "equipment": "Machine",
+    "difficulty": "Beginner",
+    "cues": [
+      "Set the seat so the handles start at chest height.",
+      "Press until the elbows are almost straight.",
+      "Return under control."
+    ]
+  },
+  {
+    "id": "push-up",
+    "name": "Push-Up",
+    "primary": "Chest",
+    "secondary": [
+      "Shoulders",
+      "Triceps"
+    ],
+    "equipment": "Bodyweight",
+    "difficulty": "Beginner",
+    "cues": [
+      "Hands under the shoulders.",
+      "Body stays one straight line.",
+      "Chest travels to the floor, then press away."
+    ]
+  },
+  {
+    "id": "diamond-push-up",
+    "name": "Diamond Push-Up",
+    "primary": "Chest",
+    "secondary": [
+      "Triceps"
+    ],
+    "equipment": "Bodyweight",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Hands form a diamond under the chest.",
+      "Elbows track back, not straight out.",
+      "Keep the hips from sagging."
+    ]
+  },
+  {
+    "id": "chest-dip",
+    "name": "Chest Dip",
+    "primary": "Chest",
+    "secondary": [
+      "Triceps",
+      "Shoulders"
+    ],
+    "equipment": "Bodyweight",
+    "difficulty": "Advanced",
+    "cues": [
+      "Lean the torso slightly forward.",
+      "Lower until the shoulders are near the elbows.",
+      "Press up without shrugging."
+    ]
+  },
+  {
+    "id": "landmine-press",
+    "name": "Landmine Press",
+    "primary": "Chest",
+    "secondary": [
+      "Shoulders",
+      "Triceps"
+    ],
+    "equipment": "Barbell",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Stagger the stance and brace.",
+      "Press the bar up and slightly in.",
+      "Don't overarch the lower back."
+    ]
+  },
+  {
+    "id": "conventional-deadlift",
+    "name": "Conventional Deadlift",
+    "primary": "Back",
+    "secondary": [
+      "Glutes",
+      "Hamstrings"
+    ],
+    "equipment": "Barbell",
+    "difficulty": "Advanced",
+    "cues": [
+      "Bar starts over the mid-foot.",
+      "Brace, then push the floor away.",
+      "Keep the bar touching the legs.",
+      "Stand tall without leaning back."
+    ]
+  },
+  {
+    "id": "barbell-bent-over-row",
+    "name": "Barbell Bent-Over Row",
+    "primary": "Back",
+    "secondary": [
+      "Biceps"
+    ],
+    "equipment": "Barbell",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Hinge until the torso is near parallel.",
+      "Pull the bar to the lower ribs.",
+      "Lower it without rounding the back."
+    ]
+  },
+  {
+    "id": "pendlay-row",
+    "name": "Pendlay Row",
+    "primary": "Back",
+    "secondary": [
+      "Biceps"
+    ],
+    "equipment": "Barbell",
+    "difficulty": "Advanced",
+    "cues": [
+      "Reset the bar on the floor each rep.",
+      "Torso stays parallel.",
+      "Pull explosively to the belly."
+    ]
+  },
+  {
+    "id": "single-arm-dumbbell-row",
+    "name": "Single-Arm Dumbbell Row",
+    "primary": "Back",
+    "secondary": [
+      "Biceps"
+    ],
+    "equipment": "Dumbbell",
+    "difficulty": "Beginner",
+    "cues": [
+      "Brace the free hand on a bench.",
+      "Pull the bell to the hip.",
+      "Don't twist the shoulders open."
+    ]
+  },
+  {
+    "id": "chest-supported-row",
+    "name": "Chest-Supported Row",
+    "primary": "Back",
+    "secondary": [
+      "Biceps"
+    ],
+    "equipment": "Dumbbell",
+    "difficulty": "Beginner",
+    "cues": [
+      "Lie on an incline bench.",
+      "Pull the bells toward the hips.",
+      "Pause at the top without shrugging."
+    ]
+  },
+  {
+    "id": "lat-pulldown",
+    "name": "Lat Pulldown",
+    "primary": "Back",
+    "secondary": [
+      "Biceps"
+    ],
+    "equipment": "Cable",
+    "difficulty": "Beginner",
+    "cues": [
+      "Grip just outside the shoulders.",
+      "Pull the bar to the upper chest.",
+      "Let the shoulders rise on the way up."
+    ]
+  },
+  {
+    "id": "wide-grip-lat-pulldown",
+    "name": "Wide-Grip Lat Pulldown",
+    "primary": "Back",
+    "secondary": [
+      "Biceps"
+    ],
+    "equipment": "Cable",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Take a wide grip.",
+      "Lead with the elbows down and out.",
+      "Stop at the collarbone."
+    ]
+  },
+  {
+    "id": "pull-up",
+    "name": "Pull-Up",
+    "primary": "Back",
+    "secondary": [
+      "Biceps"
+    ],
+    "equipment": "Bodyweight",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Start from a dead hang.",
+      "Pull the chest toward the bar.",
+      "Lower until the arms are straight."
+    ]
+  },
+  {
+    "id": "chin-up",
+    "name": "Chin-Up",
+    "primary": "Back",
+    "secondary": [
+      "Biceps"
+    ],
+    "equipment": "Bodyweight",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Palms face you.",
+      "Pull until the chin clears the bar.",
+      "Lower without swinging."
+    ]
+  },
+  {
+    "id": "seated-cable-row",
+    "name": "Seated Cable Row",
+    "primary": "Back",
+    "secondary": [
+      "Biceps"
+    ],
+    "equipment": "Cable",
+    "difficulty": "Beginner",
+    "cues": [
+      "Sit tall with a soft knee bend.",
+      "Pull the handle to the ribs.",
+      "Reach forward without collapsing."
+    ]
+  },
+  {
+    "id": "straight-arm-pulldown",
+    "name": "Straight-Arm Pulldown",
+    "primary": "Back",
+    "secondary": [],
+    "equipment": "Cable",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Arms stay nearly straight.",
+      "Pull the bar down to the thighs.",
+      "Feel the lats, not a shrug."
+    ]
+  },
+  {
+    "id": "t-bar-row",
+    "name": "T-Bar Row",
+    "primary": "Back",
+    "secondary": [
+      "Biceps"
+    ],
+    "equipment": "Barbell",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Hinge and brace.",
+      "Pull the handle into the stomach.",
+      "Control the lowering."
+    ]
+  },
+  {
+    "id": "meadows-row",
+    "name": "Meadows Row",
+    "primary": "Back",
+    "secondary": [
+      "Biceps"
+    ],
+    "equipment": "Barbell",
+    "difficulty": "Advanced",
+    "cues": [
+      "Stand beside the landmine.",
+      "Row the end of the bar to the hip.",
+      "Keep the chest proud."
+    ]
+  },
+  {
+    "id": "inverted-row",
+    "name": "Inverted Row",
+    "primary": "Back",
+    "secondary": [
+      "Biceps"
+    ],
+    "equipment": "Bodyweight",
+    "difficulty": "Beginner",
+    "cues": [
+      "Body is a straight line under the bar.",
+      "Pull the chest to the bar.",
+      "Lower until the arms are long."
+    ]
+  },
+  {
+    "id": "rack-pull",
+    "name": "Rack Pull",
+    "primary": "Back",
+    "secondary": [
+      "Glutes",
+      "Hamstrings"
+    ],
+    "equipment": "Barbell",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Bar starts just below the knee.",
+      "Brace and stand tall.",
+      "Don't lean back at the top."
+    ]
+  },
+  {
+    "id": "overhead-press",
+    "name": "Overhead Press",
+    "primary": "Shoulders",
+    "secondary": [
+      "Triceps"
+    ],
+    "equipment": "Barbell",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Squeeze the glutes and brace.",
+      "Bar starts on the front of the shoulders.",
+      "Press it to finish over the mid-foot.",
+      "Head comes through at the top."
+    ]
+  },
+  {
+    "id": "seated-dumbbell-press",
+    "name": "Seated Dumbbell Press",
+    "primary": "Shoulders",
+    "secondary": [
+      "Triceps"
+    ],
+    "equipment": "Dumbbell",
+    "difficulty": "Beginner",
+    "cues": [
+      "Sit tall against the bench.",
+      "Press the bells overhead.",
+      "Lower to ear level."
+    ]
+  },
+  {
+    "id": "arnold-press",
+    "name": "Arnold Press",
+    "primary": "Shoulders",
+    "secondary": [
+      "Triceps"
+    ],
+    "equipment": "Dumbbell",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Start with palms facing you.",
+      "Rotate the palms out as you press.",
+      "Reverse the path on the way down."
+    ]
+  },
+  {
+    "id": "dumbbell-lateral-raise",
+    "name": "Dumbbell Lateral Raise",
+    "primary": "Shoulders",
+    "secondary": [],
+    "equipment": "Dumbbell",
+    "difficulty": "Beginner",
+    "cues": [
+      "Soft elbows.",
+      "Raise to shoulder height.",
+      "Lead with the elbows, not the hands."
+    ]
+  },
+  {
+    "id": "cable-lateral-raise",
+    "name": "Cable Lateral Raise",
+    "primary": "Shoulders",
+    "secondary": [],
+    "equipment": "Cable",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Stand side-on to the stack.",
+      "Raise the arm out to shoulder height.",
+      "Don't shrug the trap."
+    ]
+  },
+  {
+    "id": "dumbbell-front-raise",
+    "name": "Dumbbell Front Raise",
+    "primary": "Shoulders",
+    "secondary": [
+      "Chest"
+    ],
+    "equipment": "Dumbbell",
+    "difficulty": "Beginner",
+    "cues": [
+      "Raise one or both bells to eye level.",
+      "Keep a soft elbow.",
+      "Lower slowly."
+    ]
+  },
+  {
+    "id": "rear-delt-fly",
+    "name": "Rear Delt Fly",
+    "primary": "Shoulders",
+    "secondary": [
+      "Back"
+    ],
+    "equipment": "Dumbbell",
+    "difficulty": "Beginner",
+    "cues": [
+      "Hinge until the chest faces the floor.",
+      "Open the arms wide.",
+      "Squeeze the shoulder blades lightly."
+    ]
+  },
+  {
+    "id": "face-pull",
+    "name": "Face Pull",
+    "primary": "Shoulders",
+    "secondary": [
+      "Back"
+    ],
+    "equipment": "Cable",
+    "difficulty": "Beginner",
+    "cues": [
+      "Set the rope at face height.",
+      "Pull toward the nose and finish hands wide.",
+      "Pause with the shoulders externally rotated."
+    ]
+  },
+  {
+    "id": "upright-row",
+    "name": "Upright Row",
+    "primary": "Shoulders",
+    "secondary": [
+      "Back"
+    ],
+    "equipment": "Barbell",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Take a shoulder-width grip.",
+      "Pull the bar to the lower chest.",
+      "Stop if the shoulders pinch."
+    ]
+  },
+  {
+    "id": "machine-shoulder-press",
+    "name": "Machine Shoulder Press",
+    "primary": "Shoulders",
+    "secondary": [
+      "Triceps"
+    ],
+    "equipment": "Machine",
+    "difficulty": "Beginner",
+    "cues": [
+      "Handles start near the shoulders.",
+      "Press up without locking hard.",
+      "Control the return."
+    ]
+  },
+  {
+    "id": "push-press",
+    "name": "Push Press",
+    "primary": "Shoulders",
+    "secondary": [
+      "Triceps",
+      "Quads"
+    ],
+    "equipment": "Barbell",
+    "difficulty": "Advanced",
+    "cues": [
+      "Dip the knees a few inches.",
+      "Drive the bar overhead with the legs.",
+      "Lock out over the mid-foot."
+    ]
+  },
+  {
+    "id": "bradford-press",
+    "name": "Bradford Press",
+    "primary": "Shoulders",
+    "secondary": [
+      "Triceps"
+    ],
+    "equipment": "Barbell",
+    "difficulty": "Advanced",
+    "cues": [
+      "Press just over the head.",
+      "Lower it behind, then back in front.",
+      "Use a modest weight."
+    ]
+  },
+  {
+    "id": "cable-rear-delt-fly",
+    "name": "Cable Rear Delt Fly",
+    "primary": "Shoulders",
+    "secondary": [
+      "Back"
+    ],
+    "equipment": "Cable",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Cross the cables in front.",
+      "Open the arms to the sides.",
+      "Keep the chest down."
+    ]
+  },
+  {
+    "id": "dumbbell-shrug",
+    "name": "Dumbbell Shrug",
+    "primary": "Shoulders",
+    "secondary": [
+      "Back"
+    ],
+    "equipment": "Dumbbell",
+    "difficulty": "Beginner",
+    "cues": [
+      "Bells hang at the sides.",
+      "Shrug straight up.",
+      "Lower all the way."
+    ]
+  },
+  {
+    "id": "barbell-shrug",
+    "name": "Barbell Shrug",
+    "primary": "Shoulders",
+    "secondary": [
+      "Back"
+    ],
+    "equipment": "Barbell",
+    "difficulty": "Beginner",
+    "cues": [
+      "Hold the bar at the thighs.",
+      "Shrug up and slightly back.",
+      "Don't roll the shoulders."
+    ]
+  },
+  {
+    "id": "barbell-curl",
+    "name": "Barbell Curl",
+    "primary": "Biceps",
+    "secondary": [
+      "Forearms"
+    ],
+    "equipment": "Barbell",
+    "difficulty": "Beginner",
+    "cues": [
+      "Elbows stay near the ribs.",
+      "Curl without swinging the hips.",
+      "Lower until the arms are straight."
+    ]
+  },
+  {
+    "id": "ez-bar-curl",
+    "name": "EZ-Bar Curl",
+    "primary": "Biceps",
+    "secondary": [
+      "Forearms"
+    ],
+    "equipment": "Barbell",
+    "difficulty": "Beginner",
+    "cues": [
+      "Use the angled grips.",
+      "Keep the wrists neutral.",
+      "Squeeze at the top without leaning back."
+    ]
+  },
+  {
+    "id": "dumbbell-curl",
+    "name": "Dumbbell Curl",
+    "primary": "Biceps",
+    "secondary": [
+      "Forearms"
+    ],
+    "equipment": "Dumbbell",
+    "difficulty": "Beginner",
+    "cues": [
+      "Alternate or curl together.",
+      "Supinate the palm as you lift.",
+      "Don't rock the torso."
+    ]
+  },
+  {
+    "id": "hammer-curl",
+    "name": "Hammer Curl",
+    "primary": "Biceps",
+    "secondary": [
+      "Forearms"
+    ],
+    "equipment": "Dumbbell",
+    "difficulty": "Beginner",
+    "cues": [
+      "Palms face each other.",
+      "Curl to the shoulder.",
+      "Keep the elbows still."
+    ]
+  },
+  {
+    "id": "incline-dumbbell-curl",
+    "name": "Incline Dumbbell Curl",
+    "primary": "Biceps",
+    "secondary": [
+      "Forearms"
+    ],
+    "equipment": "Dumbbell",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Lie on an incline so the arms hang back.",
+      "Curl without moving the upper arm.",
+      "Feel the stretch at the bottom."
+    ]
+  },
+  {
+    "id": "preacher-curl",
+    "name": "Preacher Curl",
+    "primary": "Biceps",
+    "secondary": [
+      "Forearms"
+    ],
+    "equipment": "Barbell",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Upper arms stay on the pad.",
+      "Lower until the elbow is nearly straight.",
+      "Don't bounce out of the bottom."
+    ]
+  },
+  {
+    "id": "concentration-curl",
+    "name": "Concentration Curl",
+    "primary": "Biceps",
+    "secondary": [],
+    "equipment": "Dumbbell",
+    "difficulty": "Beginner",
+    "cues": [
+      "Brace the elbow on the inner thigh.",
+      "Curl the bell to the shoulder.",
+      "Lower slowly."
+    ]
+  },
+  {
+    "id": "cable-curl",
+    "name": "Cable Curl",
+    "primary": "Biceps",
+    "secondary": [
+      "Forearms"
+    ],
+    "equipment": "Cable",
+    "difficulty": "Beginner",
+    "cues": [
+      "Stand close to the stack.",
+      "Curl the bar without letting the elbows drift.",
+      "Control the eccentric."
+    ]
+  },
+  {
+    "id": "bayesian-cable-curl",
+    "name": "Bayesian Cable Curl",
+    "primary": "Biceps",
+    "secondary": [],
+    "equipment": "Cable",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Face away from the stack.",
+      "Arm is slightly behind the body.",
+      "Curl without swinging."
+    ]
+  },
+  {
+    "id": "spider-curl",
+    "name": "Spider Curl",
+    "primary": "Biceps",
+    "secondary": [],
+    "equipment": "Dumbbell",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Chest on an incline bench.",
+      "Upper arms hang straight down.",
+      "Curl and pause at the top."
+    ]
+  },
+  {
+    "id": "reverse-curl",
+    "name": "Reverse Curl",
+    "primary": "Biceps",
+    "secondary": [
+      "Forearms"
+    ],
+    "equipment": "Barbell",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Palms face down.",
+      "Curl with the elbows pinned.",
+      "Keep the wrists straight."
+    ]
+  },
+  {
+    "id": "zottman-curl",
+    "name": "Zottman Curl",
+    "primary": "Biceps",
+    "secondary": [
+      "Forearms"
+    ],
+    "equipment": "Dumbbell",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Curl with palms up.",
+      "Rotate palms down at the top.",
+      "Lower slowly in that grip."
+    ]
+  },
+  {
+    "id": "cable-rope-hammer-curl",
+    "name": "Cable Rope Hammer Curl",
+    "primary": "Biceps",
+    "secondary": [
+      "Forearms"
+    ],
+    "equipment": "Cable",
+    "difficulty": "Beginner",
+    "cues": [
+      "Thumbs point up.",
+      "Curl the rope toward the ears.",
+      "Squeeze and lower."
+    ]
+  },
+  {
+    "id": "machine-preacher-curl",
+    "name": "Machine Preacher Curl",
+    "primary": "Biceps",
+    "secondary": [],
+    "equipment": "Machine",
+    "difficulty": "Beginner",
+    "cues": [
+      "Set the seat so the armpits meet the pad.",
+      "Curl without lifting the elbows.",
+      "Lower under control."
+    ]
+  },
+  {
+    "id": "waiter-curl",
+    "name": "Waiter Curl",
+    "primary": "Biceps",
+    "secondary": [
+      "Forearms"
+    ],
+    "equipment": "Dumbbell",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Hold one bell with both hands under the plate.",
+      "Curl it like a tray.",
+      "Keep the elbows forward."
+    ]
+  },
+  {
+    "id": "close-grip-bench-press",
+    "name": "Close-Grip Bench Press",
+    "primary": "Triceps",
+    "secondary": [
+      "Chest"
+    ],
+    "equipment": "Barbell",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Hands just inside shoulder width.",
+      "Elbows stay closer to the ribs.",
+      "Touch the lower chest and press."
+    ]
+  },
+  {
+    "id": "skull-crusher",
+    "name": "Skull Crusher",
+    "primary": "Triceps",
+    "secondary": [],
+    "equipment": "Barbell",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Upper arms stay vertical.",
+      "Bend only at the elbows.",
+      "Lower toward the forehead, then extend."
+    ]
+  },
+  {
+    "id": "overhead-dumbbell-extension",
+    "name": "Overhead Dumbbell Extension",
+    "primary": "Triceps",
+    "secondary": [],
+    "equipment": "Dumbbell",
+    "difficulty": "Beginner",
+    "cues": [
+      "Hold one bell overhead.",
+      "Lower it behind the head.",
+      "Extend without flaring the ribs."
+    ]
+  },
+  {
+    "id": "cable-pushdown",
+    "name": "Cable Pushdown",
+    "primary": "Triceps",
+    "secondary": [],
+    "equipment": "Cable",
+    "difficulty": "Beginner",
+    "cues": [
+      "Pin the elbows to the sides.",
+      "Straighten the arms.",
+      "Don't let the shoulders roll forward."
+    ]
+  },
+  {
+    "id": "rope-pushdown",
+    "name": "Rope Pushdown",
+    "primary": "Triceps",
+    "secondary": [],
+    "equipment": "Cable",
+    "difficulty": "Beginner",
+    "cues": [
+      "Split the rope at the bottom.",
+      "Elbows stay still.",
+      "Control the return to the chest."
+    ]
+  },
+  {
+    "id": "overhead-cable-extension",
+    "name": "Overhead Cable Extension",
+    "primary": "Triceps",
+    "secondary": [],
+    "equipment": "Cable",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Face away and reach overhead.",
+      "Bend the elbows behind the head.",
+      "Extend to a long arm."
+    ]
+  },
+  {
+    "id": "parallel-bar-dip",
+    "name": "Parallel Bar Dip",
+    "primary": "Triceps",
+    "secondary": [
+      "Chest"
+    ],
+    "equipment": "Bodyweight",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Stay more upright for triceps.",
+      "Lower until the elbows are near 90 degrees.",
+      "Press up to a tall lockout."
+    ]
+  },
+  {
+    "id": "bench-dip",
+    "name": "Bench Dip",
+    "primary": "Triceps",
+    "secondary": [
+      "Chest"
+    ],
+    "equipment": "Bodyweight",
+    "difficulty": "Beginner",
+    "cues": [
+      "Hands on a bench behind you.",
+      "Lower the hips by bending the elbows.",
+      "Don't let the shoulders dump forward."
+    ]
+  },
+  {
+    "id": "dumbbell-kickback",
+    "name": "Dumbbell Kickback",
+    "primary": "Triceps",
+    "secondary": [],
+    "equipment": "Dumbbell",
+    "difficulty": "Beginner",
+    "cues": [
+      "Hinge and pin the upper arm.",
+      "Extend the forearm back.",
+      "Squeeze at the straight arm."
+    ]
+  },
+  {
+    "id": "jm-press",
+    "name": "JM Press",
+    "primary": "Triceps",
+    "secondary": [
+      "Chest"
+    ],
+    "equipment": "Barbell",
+    "difficulty": "Advanced",
+    "cues": [
+      "Lower the bar toward the chin and upper chest.",
+      "Elbows drift forward.",
+      "Press back to lockout."
+    ]
+  },
+  {
+    "id": "tate-press",
+    "name": "Tate Press",
+    "primary": "Triceps",
+    "secondary": [],
+    "equipment": "Dumbbell",
+    "difficulty": "Advanced",
+    "cues": [
+      "Bells start over the chest, palms forward.",
+      "Bend the elbows out and down.",
+      "Extend back up."
+    ]
+  },
+  {
+    "id": "single-arm-cable-pushdown",
+    "name": "Single-Arm Cable Pushdown",
+    "primary": "Triceps",
+    "secondary": [],
+    "equipment": "Cable",
+    "difficulty": "Beginner",
+    "cues": [
+      "One hand on the handle.",
+      "Elbow glued to the side.",
+      "Extend and pause."
+    ]
+  },
+  {
+    "id": "french-press",
+    "name": "French Press",
+    "primary": "Triceps",
+    "secondary": [],
+    "equipment": "Barbell",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Lie down and start with the bar over the shoulders.",
+      "Lower behind the head.",
+      "Extend back over the shoulders."
+    ]
+  },
+  {
+    "id": "machine-dip",
+    "name": "Machine Dip",
+    "primary": "Triceps",
+    "secondary": [
+      "Chest"
+    ],
+    "equipment": "Machine",
+    "difficulty": "Beginner",
+    "cues": [
+      "Set the seat so the hands start near the shoulders.",
+      "Press down until the arms are straight.",
+      "Return slowly."
+    ]
+  },
+  {
+    "id": "reverse-grip-pushdown",
+    "name": "Reverse-Grip Pushdown",
+    "primary": "Triceps",
+    "secondary": [],
+    "equipment": "Cable",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Palms face up.",
+      "Elbows stay pinned.",
+      "Press the bar down and squeeze."
+    ]
+  },
+  {
+    "id": "wrist-curl",
+    "name": "Wrist Curl",
+    "primary": "Forearms",
+    "secondary": [],
+    "equipment": "Barbell",
+    "difficulty": "Beginner",
+    "cues": [
+      "Forearms rest on the thighs.",
+      "Curl the wrists up.",
+      "Lower until the fingers open slightly."
+    ]
+  },
+  {
+    "id": "reverse-wrist-curl",
+    "name": "Reverse Wrist Curl",
+    "primary": "Forearms",
+    "secondary": [],
+    "equipment": "Barbell",
+    "difficulty": "Beginner",
+    "cues": [
+      "Palms face down.",
+      "Lift the back of the hand.",
+      "Use a light bar."
+    ]
+  },
+  {
+    "id": "farmer-carry",
+    "name": "Farmer Carry",
+    "primary": "Forearms",
+    "secondary": [
+      "Abs/Core"
+    ],
+    "equipment": "Dumbbell",
+    "difficulty": "Beginner",
+    "cues": [
+      "Stand tall with heavy bells.",
+      "Walk in short, even steps.",
+      "Don't lean to one side."
+    ]
+  },
+  {
+    "id": "behind-the-back-wrist-curl",
+    "name": "Behind-the-Back Wrist Curl",
+    "primary": "Forearms",
+    "secondary": [],
+    "equipment": "Barbell",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Hold the bar behind the thighs.",
+      "Curl the wrists up.",
+      "Keep the arms straight."
+    ]
+  },
+  {
+    "id": "plate-pinch",
+    "name": "Plate Pinch",
+    "primary": "Forearms",
+    "secondary": [],
+    "equipment": "Other",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Pinch two plates smooth-side out.",
+      "Hold for time.",
+      "Stand tall."
+    ]
+  },
+  {
+    "id": "towel-hang",
+    "name": "Towel Hang",
+    "primary": "Forearms",
+    "secondary": [
+      "Back"
+    ],
+    "equipment": "Bodyweight",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Hang from a towel over a bar.",
+      "Keep the shoulders active.",
+      "Hold until the grip fades."
+    ]
+  },
+  {
+    "id": "dead-hang",
+    "name": "Dead Hang",
+    "primary": "Forearms",
+    "secondary": [
+      "Back"
+    ],
+    "equipment": "Bodyweight",
+    "difficulty": "Beginner",
+    "cues": [
+      "Hang from a bar with a full grip.",
+      "Ribs down, legs quiet.",
+      "Breathe and hold."
+    ]
+  },
+  {
+    "id": "finger-curl",
+    "name": "Finger Curl",
+    "primary": "Forearms",
+    "secondary": [],
+    "equipment": "Barbell",
+    "difficulty": "Beginner",
+    "cues": [
+      "Let the bar roll to the fingers.",
+      "Curl it back into the palm.",
+      "Keep the forearms supported."
+    ]
+  },
+  {
+    "id": "barbell-hold",
+    "name": "Barbell Hold",
+    "primary": "Forearms",
+    "secondary": [],
+    "equipment": "Barbell",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Hold a heavy bar at the thighs.",
+      "Stand tall.",
+      "Time the hold."
+    ]
+  },
+  {
+    "id": "dumbbell-pronation",
+    "name": "Dumbbell Pronation",
+    "primary": "Forearms",
+    "secondary": [],
+    "equipment": "Dumbbell",
+    "difficulty": "Beginner",
+    "cues": [
+      "Hold the bell at one end.",
+      "Rotate the palm down and up.",
+      "Move only the forearm."
+    ]
+  },
+  {
+    "id": "wrist-roller",
+    "name": "Wrist Roller",
+    "primary": "Forearms",
+    "secondary": [],
+    "equipment": "Other",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Roll the rope up with the wrists.",
+      "Reverse it down slowly.",
+      "Arms stay in front of you."
+    ]
+  },
+  {
+    "id": "thick-bar-hold",
+    "name": "Thick-Bar Hold",
+    "primary": "Forearms",
+    "secondary": [],
+    "equipment": "Barbell",
+    "difficulty": "Advanced",
+    "cues": [
+      "Grip a thick handle.",
+      "Hold at the sides or in front.",
+      "Stop before the grip opens."
+    ]
+  },
+  {
+    "id": "reverse-grip-cable-curl",
+    "name": "Reverse-Grip Cable Curl",
+    "primary": "Forearms",
+    "secondary": [
+      "Biceps"
+    ],
+    "equipment": "Cable",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Palms down on the bar.",
+      "Curl without swinging.",
+      "This loads the forearm and brachialis."
+    ]
+  },
+  {
+    "id": "radial-deviation",
+    "name": "Radial Deviation",
+    "primary": "Forearms",
+    "secondary": [],
+    "equipment": "Dumbbell",
+    "difficulty": "Beginner",
+    "cues": [
+      "Hold the bell like a hammer, thumb up.",
+      "Tilt the wrist toward the thumb.",
+      "Small range, light weight."
+    ]
+  },
+  {
+    "id": "suitcase-carry",
+    "name": "Suitcase Carry",
+    "primary": "Forearms",
+    "secondary": [
+      "Abs/Core"
+    ],
+    "equipment": "Dumbbell",
+    "difficulty": "Beginner",
+    "cues": [
+      "Carry one bell at the side.",
+      "Don't lean away from it.",
+      "Switch sides."
+    ]
+  },
+  {
+    "id": "back-squat",
+    "name": "Back Squat",
+    "primary": "Quads",
+    "secondary": [
+      "Glutes"
+    ],
+    "equipment": "Barbell",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Bar on the upper back.",
+      "Sit down and slightly back.",
+      "Knees track over the toes.",
+      "Stand tall to finish."
+    ]
+  },
+  {
+    "id": "front-squat",
+    "name": "Front Squat",
+    "primary": "Quads",
+    "secondary": [
+      "Abs/Core"
+    ],
+    "equipment": "Barbell",
+    "difficulty": "Advanced",
+    "cues": [
+      "Elbows stay high.",
+      "Torso stays more upright.",
+      "Squat to depth you can own."
+    ]
+  },
+  {
+    "id": "goblet-squat",
+    "name": "Goblet Squat",
+    "primary": "Quads",
+    "secondary": [
+      "Glutes"
+    ],
+    "equipment": "Dumbbell",
+    "difficulty": "Beginner",
+    "cues": [
+      "Hold the bell at the chest.",
+      "Elbows inside the knees at the bottom.",
+      "Stand without the heels lifting."
+    ]
+  },
+  {
+    "id": "leg-press",
+    "name": "Leg Press",
+    "primary": "Quads",
+    "secondary": [
+      "Glutes"
+    ],
+    "equipment": "Machine",
+    "difficulty": "Beginner",
+    "cues": [
+      "Feet mid-platform.",
+      "Lower until the knees are near 90 degrees.",
+      "Press without locking hard."
+    ]
+  },
+  {
+    "id": "leg-extension",
+    "name": "Leg Extension",
+    "primary": "Quads",
+    "secondary": [],
+    "equipment": "Machine",
+    "difficulty": "Beginner",
+    "cues": [
+      "Pad sits on the lower shin.",
+      "Straighten the knees.",
+      "Lower slowly."
+    ]
+  },
+  {
+    "id": "bulgarian-split-squat",
+    "name": "Bulgarian Split Squat",
+    "primary": "Quads",
+    "secondary": [
+      "Glutes"
+    ],
+    "equipment": "Dumbbell",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Rear foot on a bench.",
+      "Drop the back knee.",
+      "Front heel stays down."
+    ]
+  },
+  {
+    "id": "walking-lunge",
+    "name": "Walking Lunge",
+    "primary": "Quads",
+    "secondary": [
+      "Glutes"
+    ],
+    "equipment": "Dumbbell",
+    "difficulty": "Beginner",
+    "cues": [
+      "Take a long step.",
+      "Back knee travels toward the floor.",
+      "Drive through the front heel."
+    ]
+  },
+  {
+    "id": "hack-squat",
+    "name": "Hack Squat",
+    "primary": "Quads",
+    "secondary": [
+      "Glutes"
+    ],
+    "equipment": "Machine",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Shoulders under the pads.",
+      "Squat down with the back on the pad.",
+      "Press up evenly."
+    ]
+  },
+  {
+    "id": "sissy-squat",
+    "name": "Sissy Squat",
+    "primary": "Quads",
+    "secondary": [],
+    "equipment": "Bodyweight",
+    "difficulty": "Advanced",
+    "cues": [
+      "Knees travel forward.",
+      "Torso leans back with them.",
+      "Use a support until you own it."
+    ]
+  },
+  {
+    "id": "step-up",
+    "name": "Step-Up",
+    "primary": "Quads",
+    "secondary": [
+      "Glutes"
+    ],
+    "equipment": "Dumbbell",
+    "difficulty": "Beginner",
+    "cues": [
+      "Whole foot on the box.",
+      "Drive up without pushing off the back leg.",
+      "Stand tall on the box."
+    ]
+  },
+  {
+    "id": "heel-elevated-squat",
+    "name": "Heel-Elevated Squat",
+    "primary": "Quads",
+    "secondary": [
+      "Glutes"
+    ],
+    "equipment": "Dumbbell",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Heels on a small plate.",
+      "Stay upright.",
+      "Knees travel forward."
+    ]
+  },
+  {
+    "id": "spanish-squat",
+    "name": "Spanish Squat",
+    "primary": "Quads",
+    "secondary": [],
+    "equipment": "Bands",
+    "difficulty": "Beginner",
+    "cues": [
+      "Band behind the knees, anchored low.",
+      "Sit straight down.",
+      "The band helps the knees track."
+    ]
+  },
+  {
+    "id": "box-squat",
+    "name": "Box Squat",
+    "primary": "Quads",
+    "secondary": [
+      "Glutes"
+    ],
+    "equipment": "Barbell",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Sit back to a box.",
+      "Pause without relaxing.",
+      "Stand up hard."
+    ]
+  },
+  {
+    "id": "cyclist-squat",
+    "name": "Cyclist Squat",
+    "primary": "Quads",
+    "secondary": [],
+    "equipment": "Dumbbell",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Heels elevated, narrow stance.",
+      "Stay very upright.",
+      "Short range, high quad tension."
+    ]
+  },
+  {
+    "id": "wall-sit",
+    "name": "Wall Sit",
+    "primary": "Quads",
+    "secondary": [],
+    "equipment": "Bodyweight",
+    "difficulty": "Beginner",
+    "cues": [
+      "Back flat on the wall.",
+      "Thighs near parallel.",
+      "Hold and breathe."
+    ]
+  },
+  {
+    "id": "romanian-deadlift",
+    "name": "Romanian Deadlift",
+    "primary": "Hamstrings",
+    "secondary": [
+      "Glutes"
+    ],
+    "equipment": "Barbell",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Soft knees stay soft.",
+      "Hinge until the hamstrings stretch.",
+      "Stand by driving the hips through."
+    ]
+  },
+  {
+    "id": "stiff-leg-deadlift",
+    "name": "Stiff-Leg Deadlift",
+    "primary": "Hamstrings",
+    "secondary": [
+      "Glutes"
+    ],
+    "equipment": "Barbell",
+    "difficulty": "Advanced",
+    "cues": [
+      "Less knee bend than an RDL.",
+      "Bar stays close.",
+      "Stop when the back wants to round."
+    ]
+  },
+  {
+    "id": "lying-leg-curl",
+    "name": "Lying Leg Curl",
+    "primary": "Hamstrings",
+    "secondary": [],
+    "equipment": "Machine",
+    "difficulty": "Beginner",
+    "cues": [
+      "Hips stay down.",
+      "Curl the heels to the glutes.",
+      "Lower under control."
+    ]
+  },
+  {
+    "id": "seated-leg-curl",
+    "name": "Seated Leg Curl",
+    "primary": "Hamstrings",
+    "secondary": [],
+    "equipment": "Machine",
+    "difficulty": "Beginner",
+    "cues": [
+      "Pad sits above the heels.",
+      "Curl down and back.",
+      "Don't let the hips lift."
+    ]
+  },
+  {
+    "id": "nordic-curl",
+    "name": "Nordic Curl",
+    "primary": "Hamstrings",
+    "secondary": [],
+    "equipment": "Bodyweight",
+    "difficulty": "Advanced",
+    "cues": [
+      "Anchor the ankles.",
+      "Lower the body slowly.",
+      "Catch yourself with the hands if needed."
+    ]
+  },
+  {
+    "id": "good-morning",
+    "name": "Good Morning",
+    "primary": "Hamstrings",
+    "secondary": [
+      "Glutes"
+    ],
+    "equipment": "Barbell",
+    "difficulty": "Advanced",
+    "cues": [
+      "Bar on the back, knees soft.",
+      "Hinge the hips back.",
+      "Return to a tall stand."
+    ]
+  },
+  {
+    "id": "single-leg-romanian-deadlift",
+    "name": "Single-Leg Romanian Deadlift",
+    "primary": "Hamstrings",
+    "secondary": [
+      "Glutes"
+    ],
+    "equipment": "Dumbbell",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Hinge on one leg.",
+      "Hips stay square.",
+      "Stand tall on the working leg."
+    ]
+  },
+  {
+    "id": "glute-ham-raise",
+    "name": "Glute-Ham Raise",
+    "primary": "Hamstrings",
+    "secondary": [
+      "Glutes"
+    ],
+    "equipment": "Machine",
+    "difficulty": "Advanced",
+    "cues": [
+      "Start with the body straight.",
+      "Curl the heels and extend the hips.",
+      "Lower slowly."
+    ]
+  },
+  {
+    "id": "slider-leg-curl",
+    "name": "Slider Leg Curl",
+    "primary": "Hamstrings",
+    "secondary": [
+      "Glutes"
+    ],
+    "equipment": "Bodyweight",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Heels on sliders, hips up.",
+      "Curl the heels in.",
+      "Keep the hips high."
+    ]
+  },
+  {
+    "id": "swiss-ball-leg-curl",
+    "name": "Swiss-Ball Leg Curl",
+    "primary": "Hamstrings",
+    "secondary": [
+      "Glutes"
+    ],
+    "equipment": "Other",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Heels on the ball.",
+      "Curl it toward you.",
+      "Don't let the hips drop."
+    ]
+  },
+  {
+    "id": "dumbbell-romanian-deadlift",
+    "name": "Dumbbell Romanian Deadlift",
+    "primary": "Hamstrings",
+    "secondary": [
+      "Glutes"
+    ],
+    "equipment": "Dumbbell",
+    "difficulty": "Beginner",
+    "cues": [
+      "Bells in front of the thighs.",
+      "Hinge with a flat back.",
+      "Stand tall."
+    ]
+  },
+  {
+    "id": "45-degree-back-extension",
+    "name": "45-Degree Back Extension",
+    "primary": "Hamstrings",
+    "secondary": [
+      "Glutes"
+    ],
+    "equipment": "Machine",
+    "difficulty": "Beginner",
+    "cues": [
+      "Pad at the hips.",
+      "Lower the torso.",
+      "Raise until the body is straight, not past it."
+    ]
+  },
+  {
+    "id": "standing-leg-curl",
+    "name": "Standing Leg Curl",
+    "primary": "Hamstrings",
+    "secondary": [],
+    "equipment": "Machine",
+    "difficulty": "Beginner",
+    "cues": [
+      "Thigh stays on the pad.",
+      "Curl the heel up.",
+      "Lower slowly."
+    ]
+  },
+  {
+    "id": "deficit-romanian-deadlift",
+    "name": "Deficit Romanian Deadlift",
+    "primary": "Hamstrings",
+    "secondary": [
+      "Glutes"
+    ],
+    "equipment": "Barbell",
+    "difficulty": "Advanced",
+    "cues": [
+      "Stand on a small plate.",
+      "Hinge a little deeper.",
+      "Keep the bar close."
+    ]
+  },
+  {
+    "id": "kettlebell-romanian-deadlift",
+    "name": "Kettlebell Romanian Deadlift",
+    "primary": "Hamstrings",
+    "secondary": [
+      "Glutes"
+    ],
+    "equipment": "Kettlebell",
+    "difficulty": "Beginner",
+    "cues": [
+      "Bell close to the body.",
+      "Hinge to a hamstring stretch.",
+      "Stand by squeezing the glutes."
+    ]
+  },
+  {
+    "id": "hip-thrust",
+    "name": "Hip Thrust",
+    "primary": "Glutes",
+    "secondary": [
+      "Hamstrings"
+    ],
+    "equipment": "Barbell",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Upper back on a bench.",
+      "Drive through the heels.",
+      "Ribs stay down at the top.",
+      "Pause when the hips are tall."
+    ]
+  },
+  {
+    "id": "glute-bridge",
+    "name": "Glute Bridge",
+    "primary": "Glutes",
+    "secondary": [
+      "Hamstrings"
+    ],
+    "equipment": "Bodyweight",
+    "difficulty": "Beginner",
+    "cues": [
+      "Feet flat, knees bent.",
+      "Lift the hips.",
+      "Squeeze without arching the lower back."
+    ]
+  },
+  {
+    "id": "cable-kickback",
+    "name": "Cable Kickback",
+    "primary": "Glutes",
+    "secondary": [],
+    "equipment": "Cable",
+    "difficulty": "Beginner",
+    "cues": [
+      "Slight forward lean.",
+      "Kick the heel back.",
+      "Don't swing the torso."
+    ]
+  },
+  {
+    "id": "frog-pump",
+    "name": "Frog Pump",
+    "primary": "Glutes",
+    "secondary": [],
+    "equipment": "Bodyweight",
+    "difficulty": "Beginner",
+    "cues": [
+      "Soles of the feet together.",
+      "Lift the hips in a small range.",
+      "Squeeze at the top."
+    ]
+  },
+  {
+    "id": "sumo-deadlift",
+    "name": "Sumo Deadlift",
+    "primary": "Glutes",
+    "secondary": [
+      "Hamstrings",
+      "Quads"
+    ],
+    "equipment": "Barbell",
+    "difficulty": "Advanced",
+    "cues": [
+      "Wide stance, toes out.",
+      "Grip inside the knees.",
+      "Push the floor apart and stand."
+    ]
+  },
+  {
+    "id": "cable-pull-through",
+    "name": "Cable Pull-Through",
+    "primary": "Glutes",
+    "secondary": [
+      "Hamstrings"
+    ],
+    "equipment": "Cable",
+    "difficulty": "Beginner",
+    "cues": [
+      "Face away from the stack.",
+      "Hinge and let the cable pull the hips back.",
+      "Stand tall and squeeze."
+    ]
+  },
+  {
+    "id": "lateral-band-walk",
+    "name": "Lateral Band Walk",
+    "primary": "Glutes",
+    "secondary": [],
+    "equipment": "Bands",
+    "difficulty": "Beginner",
+    "cues": [
+      "Band above the knees.",
+      "Sit into a small squat.",
+      "Step sideways without letting the knees cave."
+    ]
+  },
+  {
+    "id": "donkey-kick",
+    "name": "Donkey Kick",
+    "primary": "Glutes",
+    "secondary": [],
+    "equipment": "Bodyweight",
+    "difficulty": "Beginner",
+    "cues": [
+      "On all fours.",
+      "Kick the heel toward the ceiling.",
+      "Hips stay square."
+    ]
+  },
+  {
+    "id": "reverse-lunge",
+    "name": "Reverse Lunge",
+    "primary": "Glutes",
+    "secondary": [
+      "Quads"
+    ],
+    "equipment": "Dumbbell",
+    "difficulty": "Beginner",
+    "cues": [
+      "Step backward.",
+      "Drop the back knee.",
+      "Drive through the front heel."
+    ]
+  },
+  {
+    "id": "single-leg-hip-thrust",
+    "name": "Single-Leg Hip Thrust",
+    "primary": "Glutes",
+    "secondary": [
+      "Hamstrings"
+    ],
+    "equipment": "Bodyweight",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Shoulders on a bench.",
+      "One foot planted.",
+      "Drive that hip up and pause."
+    ]
+  },
+  {
+    "id": "hip-abduction-machine",
+    "name": "Hip Abduction Machine",
+    "primary": "Glutes",
+    "secondary": [],
+    "equipment": "Machine",
+    "difficulty": "Beginner",
+    "cues": [
+      "Sit tall.",
+      "Press the pads apart.",
+      "Control the return."
+    ]
+  },
+  {
+    "id": "curtsy-lunge",
+    "name": "Curtsy Lunge",
+    "primary": "Glutes",
+    "secondary": [
+      "Quads"
+    ],
+    "equipment": "Dumbbell",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Step one foot behind and across.",
+      "Drop straight down.",
+      "Keep the chest up."
+    ]
+  },
+  {
+    "id": "kettlebell-swing",
+    "name": "Kettlebell Swing",
+    "primary": "Glutes",
+    "secondary": [
+      "Hamstrings"
+    ],
+    "equipment": "Kettlebell",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Hinge, don't squat deep.",
+      "Snap the hips.",
+      "Bell floats to chest height."
+    ]
+  },
+  {
+    "id": "smith-machine-hip-thrust",
+    "name": "Smith Machine Hip Thrust",
+    "primary": "Glutes",
+    "secondary": [
+      "Hamstrings"
+    ],
+    "equipment": "Machine",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Bar across the hips.",
+      "Drive up and pause.",
+      "Don't overarch."
+    ]
+  },
+  {
+    "id": "glute-kickback-machine",
+    "name": "Glute Kickback Machine",
+    "primary": "Glutes",
+    "secondary": [],
+    "equipment": "Machine",
+    "difficulty": "Beginner",
+    "cues": [
+      "Hip on the pad.",
+      "Press the foot back.",
+      "Squeeze at the end range."
+    ]
+  },
+  {
+    "id": "standing-calf-raise",
+    "name": "Standing Calf Raise",
+    "primary": "Calves",
+    "secondary": [],
+    "equipment": "Machine",
+    "difficulty": "Beginner",
+    "cues": [
+      "Balls of the feet on the edge.",
+      "Rise all the way up.",
+      "Lower the heels below the step."
+    ]
+  },
+  {
+    "id": "seated-calf-raise",
+    "name": "Seated Calf Raise",
+    "primary": "Calves",
+    "secondary": [],
+    "equipment": "Machine",
+    "difficulty": "Beginner",
+    "cues": [
+      "Pads on the knees.",
+      "Lift the heels.",
+      "Pause at the top and the bottom."
+    ]
+  },
+  {
+    "id": "leg-press-calf-raise",
+    "name": "Leg Press Calf Raise",
+    "primary": "Calves",
+    "secondary": [],
+    "equipment": "Machine",
+    "difficulty": "Beginner",
+    "cues": [
+      "Balls of the feet on the bottom of the platform.",
+      "Press through the toes.",
+      "Don't lock and bounce."
+    ]
+  },
+  {
+    "id": "donkey-calf-raise",
+    "name": "Donkey Calf Raise",
+    "primary": "Calves",
+    "secondary": [],
+    "equipment": "Machine",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Hinge at the hips.",
+      "Raise the heels.",
+      "Full stretch at the bottom."
+    ]
+  },
+  {
+    "id": "single-leg-calf-raise",
+    "name": "Single-Leg Calf Raise",
+    "primary": "Calves",
+    "secondary": [],
+    "equipment": "Bodyweight",
+    "difficulty": "Beginner",
+    "cues": [
+      "Hold a support.",
+      "Rise on one foot.",
+      "Slow on the way down."
+    ]
+  },
+  {
+    "id": "smith-machine-calf-raise",
+    "name": "Smith Machine Calf Raise",
+    "primary": "Calves",
+    "secondary": [],
+    "equipment": "Machine",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Bar on the back, toes on a plate.",
+      "Rise and lower.",
+      "Stay balanced."
+    ]
+  },
+  {
+    "id": "tibialis-raise",
+    "name": "Tibialis Raise",
+    "primary": "Calves",
+    "secondary": [],
+    "equipment": "Bodyweight",
+    "difficulty": "Beginner",
+    "cues": [
+      "Heels on the floor, toes up.",
+      "Lift the toes toward the shins.",
+      "Pause at the top."
+    ]
+  },
+  {
+    "id": "dumbbell-calf-raise",
+    "name": "Dumbbell Calf Raise",
+    "primary": "Calves",
+    "secondary": [],
+    "equipment": "Dumbbell",
+    "difficulty": "Beginner",
+    "cues": [
+      "Bell in one hand, other hand on a wall.",
+      "Rise onto the toes.",
+      "Full range."
+    ]
+  },
+  {
+    "id": "bodyweight-calf-raise",
+    "name": "Bodyweight Calf Raise",
+    "primary": "Calves",
+    "secondary": [],
+    "equipment": "Bodyweight",
+    "difficulty": "Beginner",
+    "cues": [
+      "Stand on a step.",
+      "Up, pause, down.",
+      "Both feet together."
+    ]
+  },
+  {
+    "id": "eccentric-calf-drop",
+    "name": "Eccentric Calf Drop",
+    "primary": "Calves",
+    "secondary": [],
+    "equipment": "Bodyweight",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Rise on two feet.",
+      "Lower on one for a slow count.",
+      "Use a step for range."
+    ]
+  },
+  {
+    "id": "seated-dumbbell-calf-raise",
+    "name": "Seated Dumbbell Calf Raise",
+    "primary": "Calves",
+    "secondary": [],
+    "equipment": "Dumbbell",
+    "difficulty": "Beginner",
+    "cues": [
+      "Bells rest on the knees.",
+      "Lift the heels.",
+      "Keep the toes forward."
+    ]
+  },
+  {
+    "id": "hack-squat-calf-raise",
+    "name": "Hack Squat Calf Raise",
+    "primary": "Calves",
+    "secondary": [],
+    "equipment": "Machine",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Toes on the platform.",
+      "Press through the calves.",
+      "Control the stretch."
+    ]
+  },
+  {
+    "id": "band-calf-raise",
+    "name": "Band Calf Raise",
+    "primary": "Calves",
+    "secondary": [],
+    "equipment": "Bands",
+    "difficulty": "Beginner",
+    "cues": [
+      "Band under the feet, held in the hands.",
+      "Rise against the band.",
+      "Slow lower."
+    ]
+  },
+  {
+    "id": "farmer-calf-raise",
+    "name": "Farmer Calf Raise",
+    "primary": "Calves",
+    "secondary": [
+      "Forearms"
+    ],
+    "equipment": "Dumbbell",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Hold the bells at the sides.",
+      "Raise the heels.",
+      "Stay tall."
+    ]
+  },
+  {
+    "id": "stair-calf-walk",
+    "name": "Stair Calf Walk",
+    "primary": "Calves",
+    "secondary": [],
+    "equipment": "Bodyweight",
+    "difficulty": "Beginner",
+    "cues": [
+      "Walk up on the balls of the feet.",
+      "Don't bounce.",
+      "Use a rail if you need it."
+    ]
+  },
+  {
+    "id": "plank",
+    "name": "Plank",
+    "primary": "Abs/Core",
+    "secondary": [],
+    "equipment": "Bodyweight",
+    "difficulty": "Beginner",
+    "cues": [
+      "Elbows under the shoulders.",
+      "Ribs and hips level.",
+      "Squeeze the glutes and breathe."
+    ]
+  },
+  {
+    "id": "dead-bug",
+    "name": "Dead Bug",
+    "primary": "Abs/Core",
+    "secondary": [],
+    "equipment": "Bodyweight",
+    "difficulty": "Beginner",
+    "cues": [
+      "Low back stays gently down.",
+      "Reach the opposite arm and leg.",
+      "Move slowly."
+    ]
+  },
+  {
+    "id": "hanging-leg-raise",
+    "name": "Hanging Leg Raise",
+    "primary": "Abs/Core",
+    "secondary": [],
+    "equipment": "Bodyweight",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Hang tall.",
+      "Lift the legs without swinging.",
+      "Lower until the body is long."
+    ]
+  },
+  {
+    "id": "cable-crunch",
+    "name": "Cable Crunch",
+    "primary": "Abs/Core",
+    "secondary": [],
+    "equipment": "Cable",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Kneel facing the stack.",
+      "Crunch the ribs toward the hips.",
+      "Don't pull with the arms."
+    ]
+  },
+  {
+    "id": "ab-wheel",
+    "name": "Ab Wheel",
+    "primary": "Abs/Core",
+    "secondary": [],
+    "equipment": "Other",
+    "difficulty": "Advanced",
+    "cues": [
+      "Start on the knees.",
+      "Roll out until the hips want to sag.",
+      "Pull back with the abs."
+    ]
+  },
+  {
+    "id": "bicycle-crunch",
+    "name": "Bicycle Crunch",
+    "primary": "Abs/Core",
+    "secondary": [],
+    "equipment": "Bodyweight",
+    "difficulty": "Beginner",
+    "cues": [
+      "Shoulder toward the opposite knee.",
+      "The other leg stays long.",
+      "Slow, don't yank the neck."
+    ]
+  },
+  {
+    "id": "russian-twist",
+    "name": "Russian Twist",
+    "primary": "Abs/Core",
+    "secondary": [],
+    "equipment": "Bodyweight",
+    "difficulty": "Beginner",
+    "cues": [
+      "Lean back slightly.",
+      "Rotate the ribs, not just the arms.",
+      "Feet down if the back tires."
+    ]
+  },
+  {
+    "id": "pallof-press",
+    "name": "Pallof Press",
+    "primary": "Abs/Core",
+    "secondary": [],
+    "equipment": "Cable",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Stand side-on to the cable.",
+      "Press the handle straight out.",
+      "Don't let the cable rotate you."
+    ]
+  },
+  {
+    "id": "mountain-climber",
+    "name": "Mountain Climber",
+    "primary": "Abs/Core",
+    "secondary": [],
+    "equipment": "Bodyweight",
+    "difficulty": "Beginner",
+    "cues": [
+      "Plank position.",
+      "Drive one knee in, then the other.",
+      "Hips stay low."
+    ]
+  },
+  {
+    "id": "lying-leg-raise",
+    "name": "Lying Leg Raise",
+    "primary": "Abs/Core",
+    "secondary": [],
+    "equipment": "Bodyweight",
+    "difficulty": "Beginner",
+    "cues": [
+      "Hands under the hips if needed.",
+      "Lift the legs to vertical.",
+      "Lower without the back arching hard."
+    ]
+  },
+  {
+    "id": "side-plank",
+    "name": "Side Plank",
+    "primary": "Abs/Core",
+    "secondary": [],
+    "equipment": "Bodyweight",
+    "difficulty": "Beginner",
+    "cues": [
+      "Elbow under the shoulder.",
+      "Hips up.",
+      "Body is a straight line."
+    ]
+  },
+  {
+    "id": "cable-woodchop",
+    "name": "Cable Woodchop",
+    "primary": "Abs/Core",
+    "secondary": [],
+    "equipment": "Cable",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Start high.",
+      "Rotate down across the body.",
+      "Hips and ribs turn together."
+    ]
+  },
+  {
+    "id": "v-up",
+    "name": "V-Up",
+    "primary": "Abs/Core",
+    "secondary": [],
+    "equipment": "Bodyweight",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Arms and legs meet over the hips.",
+      "Lower with control.",
+      "Keep the lower back honest."
+    ]
+  },
+  {
+    "id": "hollow-hold",
+    "name": "Hollow Hold",
+    "primary": "Abs/Core",
+    "secondary": [],
+    "equipment": "Bodyweight",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Low back pressed down.",
+      "Arms and legs reach long.",
+      "Hold and breathe."
+    ]
+  },
+  {
+    "id": "reverse-crunch",
+    "name": "Reverse Crunch",
+    "primary": "Abs/Core",
+    "secondary": [],
+    "equipment": "Bodyweight",
+    "difficulty": "Beginner",
+    "cues": [
+      "Knees bent.",
+      "Curl the hips off the floor.",
+      "Don't swing the legs."
+    ]
+  },
+  {
+    "id": "burpee",
+    "name": "Burpee",
+    "primary": "Full Body",
+    "secondary": [
+      "Quads",
+      "Chest"
+    ],
+    "equipment": "Bodyweight",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Squat to the hands.",
+      "Step or jump to a plank.",
+      "Return and stand.",
+      "Add a jump only if the landing is quiet."
+    ]
+  },
+  {
+    "id": "thruster",
+    "name": "Thruster",
+    "primary": "Full Body",
+    "secondary": [
+      "Shoulders",
+      "Quads"
+    ],
+    "equipment": "Barbell",
+    "difficulty": "Advanced",
+    "cues": [
+      "Front squat.",
+      "Drive straight into an overhead press.",
+      "One smooth rep."
+    ]
+  },
+  {
+    "id": "clean-and-press",
+    "name": "Clean and Press",
+    "primary": "Full Body",
+    "secondary": [
+      "Shoulders",
+      "Back"
+    ],
+    "equipment": "Barbell",
+    "difficulty": "Advanced",
+    "cues": [
+      "Pull the bar in close.",
+      "Catch it on the shoulders.",
+      "Press overhead."
+    ]
+  },
+  {
+    "id": "kettlebell-snatch",
+    "name": "Kettlebell Snatch",
+    "primary": "Full Body",
+    "secondary": [
+      "Shoulders"
+    ],
+    "equipment": "Kettlebell",
+    "difficulty": "Advanced",
+    "cues": [
+      "Hinge and hike the bell.",
+      "Punch through at the top.",
+      "The bell rests on the forearm, not the wrist."
+    ]
+  },
+  {
+    "id": "devil-press",
+    "name": "Devil Press",
+    "primary": "Full Body",
+    "secondary": [
+      "Shoulders",
+      "Back"
+    ],
+    "equipment": "Dumbbell",
+    "difficulty": "Advanced",
+    "cues": [
+      "Burpee with two bells.",
+      "Swing them overhead as you stand.",
+      "Land softly."
+    ]
+  },
+  {
+    "id": "turkish-get-up",
+    "name": "Turkish Get-Up",
+    "primary": "Full Body",
+    "secondary": [
+      "Shoulders"
+    ],
+    "equipment": "Kettlebell",
+    "difficulty": "Advanced",
+    "cues": [
+      "Eyes on the bell.",
+      "Move from the floor to standing in steps.",
+      "Reverse the same path down."
+    ]
+  },
+  {
+    "id": "dumbbell-snatch",
+    "name": "Dumbbell Snatch",
+    "primary": "Full Body",
+    "secondary": [
+      "Shoulders"
+    ],
+    "equipment": "Dumbbell",
+    "difficulty": "Intermediate",
+    "cues": [
+      "One bell between the feet.",
+      "Pull and punch overhead.",
+      "Stand tall to finish."
+    ]
+  },
+  {
+    "id": "squat-to-press",
+    "name": "Squat to Press",
+    "primary": "Full Body",
+    "secondary": [
+      "Shoulders",
+      "Quads"
+    ],
+    "equipment": "Dumbbell",
+    "difficulty": "Beginner",
+    "cues": [
+      "Bells at the shoulders.",
+      "Squat.",
+      "Press as you stand."
+    ]
+  },
+  {
+    "id": "renegade-row",
+    "name": "Renegade Row",
+    "primary": "Full Body",
+    "secondary": [
+      "Back",
+      "Abs/Core"
+    ],
+    "equipment": "Dumbbell",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Plank on the bells.",
+      "Row one bell to the hip.",
+      "Hips stay square."
+    ]
+  },
+  {
+    "id": "man-maker",
+    "name": "Man Maker",
+    "primary": "Full Body",
+    "secondary": [
+      "Shoulders",
+      "Back"
+    ],
+    "equipment": "Dumbbell",
+    "difficulty": "Advanced",
+    "cues": [
+      "Push-up, row each side, then squat to press.",
+      "Keep the reps smooth.",
+      "Use lighter bells than you row."
+    ]
+  },
+  {
+    "id": "bear-complex",
+    "name": "Bear Complex",
+    "primary": "Full Body",
+    "secondary": [
+      "Shoulders",
+      "Back"
+    ],
+    "equipment": "Barbell",
+    "difficulty": "Advanced",
+    "cues": [
+      "Clean, front squat, push press, back squat, push press.",
+      "One cycle, no rest.",
+      "Learn it light."
+    ]
+  },
+  {
+    "id": "dumbbell-clean",
+    "name": "Dumbbell Clean",
+    "primary": "Full Body",
+    "secondary": [
+      "Back"
+    ],
+    "equipment": "Dumbbell",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Bells start by the shins.",
+      "Pull and catch at the shoulders.",
+      "Stand tall."
+    ]
+  },
+  {
+    "id": "sandbag-clean",
+    "name": "Sandbag Clean",
+    "primary": "Full Body",
+    "secondary": [
+      "Back",
+      "Quads"
+    ],
+    "equipment": "Other",
+    "difficulty": "Advanced",
+    "cues": [
+      "Hug the bag.",
+      "Extend the hips.",
+      "Catch it in the arms at the chest."
+    ]
+  },
+  {
+    "id": "wall-ball",
+    "name": "Wall Ball",
+    "primary": "Full Body",
+    "secondary": [
+      "Shoulders",
+      "Quads"
+    ],
+    "equipment": "Other",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Squat with the ball.",
+      "Throw it to a target as you stand.",
+      "Catch and sit again."
+    ]
+  },
+  {
+    "id": "farmer-carry-complex",
+    "name": "Farmer Carry Complex",
+    "primary": "Full Body",
+    "secondary": [
+      "Forearms",
+      "Abs/Core"
+    ],
+    "equipment": "Dumbbell",
+    "difficulty": "Beginner",
+    "cues": [
+      "Carry, then shrug, then a short march.",
+      "Stay tall the whole time.",
+      "Switch grips if needed."
+    ]
+  },
+  {
+    "id": "treadmill-run",
+    "name": "Treadmill Run",
+    "primary": "Cardio",
+    "secondary": [],
+    "equipment": "Machine",
+    "difficulty": "Beginner",
+    "cues": [
+      "Start with a walk.",
+      "Land under the hips.",
+      "Stop if form falls apart."
+    ]
+  },
+  {
+    "id": "incline-walk",
+    "name": "Incline Walk",
+    "primary": "Cardio",
+    "secondary": [],
+    "equipment": "Machine",
+    "difficulty": "Beginner",
+    "cues": [
+      "Set a steep grade.",
+      "Short steps, arms swinging.",
+      "Don't hold the rails."
+    ]
+  },
+  {
+    "id": "rowing-machine",
+    "name": "Rowing Machine",
+    "primary": "Cardio",
+    "secondary": [
+      "Back"
+    ],
+    "equipment": "Machine",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Legs, then hips, then arms.",
+      "Return arms, hips, then knees.",
+      "Don't round the back at the catch."
+    ]
+  },
+  {
+    "id": "assault-bike",
+    "name": "Assault Bike",
+    "primary": "Cardio",
+    "secondary": [
+      "Quads"
+    ],
+    "equipment": "Machine",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Push and pull the handles.",
+      "Keep a rhythm you can hold.",
+      "Breathe on purpose."
+    ]
+  },
+  {
+    "id": "jump-rope",
+    "name": "Jump Rope",
+    "primary": "Cardio",
+    "secondary": [
+      "Calves"
+    ],
+    "equipment": "Other",
+    "difficulty": "Beginner",
+    "cues": [
+      "Small jumps.",
+      "Wrists turn the rope.",
+      "Stay on the balls of the feet."
+    ]
+  },
+  {
+    "id": "stationary-bike",
+    "name": "Stationary Bike",
+    "primary": "Cardio",
+    "secondary": [
+      "Quads"
+    ],
+    "equipment": "Machine",
+    "difficulty": "Beginner",
+    "cues": [
+      "Seat at hip height.",
+      "Smooth circles.",
+      "Don't collapse onto the bars."
+    ]
+  },
+  {
+    "id": "stair-climber",
+    "name": "Stair Climber",
+    "primary": "Cardio",
+    "secondary": [
+      "Glutes",
+      "Quads"
+    ],
+    "equipment": "Machine",
+    "difficulty": "Beginner",
+    "cues": [
+      "Light hands on the rails.",
+      "Full steps.",
+      "Stand tall."
+    ]
+  },
+  {
+    "id": "skierg",
+    "name": "SkiErg",
+    "primary": "Cardio",
+    "secondary": [
+      "Back",
+      "Abs/Core"
+    ],
+    "equipment": "Machine",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Reach tall.",
+      "Crack the hips down.",
+      "Arms finish by the thighs."
+    ]
+  },
+  {
+    "id": "jumping-jacks",
+    "name": "Jumping Jacks",
+    "primary": "Cardio",
+    "secondary": [
+      "Shoulders"
+    ],
+    "equipment": "Bodyweight",
+    "difficulty": "Beginner",
+    "cues": [
+      "Soft landings.",
+      "Arms overhead.",
+      "Keep a steady pace."
+    ]
+  },
+  {
+    "id": "high-knees",
+    "name": "High Knees",
+    "primary": "Cardio",
+    "secondary": [
+      "Quads"
+    ],
+    "equipment": "Bodyweight",
+    "difficulty": "Beginner",
+    "cues": [
+      "Knees drive up.",
+      "Stay on the forefoot.",
+      "Quick, quiet feet."
+    ]
+  },
+  {
+    "id": "elliptical",
+    "name": "Elliptical",
+    "primary": "Cardio",
+    "secondary": [
+      "Quads"
+    ],
+    "equipment": "Machine",
+    "difficulty": "Beginner",
+    "cues": [
+      "Tall posture.",
+      "Push and pull the handles.",
+      "Don't bounce."
+    ]
+  },
+  {
+    "id": "shadow-boxing",
+    "name": "Shadow Boxing",
+    "primary": "Cardio",
+    "secondary": [
+      "Shoulders"
+    ],
+    "equipment": "Bodyweight",
+    "difficulty": "Beginner",
+    "cues": [
+      "Hands up.",
+      "Turn the hips with the punch.",
+      "Breathe out on each strike."
+    ]
+  },
+  {
+    "id": "battle-ropes",
+    "name": "Battle Ropes",
+    "primary": "Cardio",
+    "secondary": [
+      "Shoulders",
+      "Abs/Core"
+    ],
+    "equipment": "Other",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Athletic stance.",
+      "Make even waves.",
+      "Don't hunch."
+    ]
+  },
+  {
+    "id": "box-step",
+    "name": "Box Step",
+    "primary": "Cardio",
+    "secondary": [
+      "Quads",
+      "Glutes"
+    ],
+    "equipment": "Bodyweight",
+    "difficulty": "Beginner",
+    "cues": [
+      "Step up and down one foot at a time.",
+      "Full foot on the box.",
+      "Quiet landings."
+    ]
+  },
+  {
+    "id": "pool-laps",
+    "name": "Pool Laps",
+    "primary": "Cardio",
+    "secondary": [],
+    "equipment": "Other",
+    "difficulty": "Intermediate",
+    "cues": [
+      "Long body line.",
+      "Exhale underwater.",
+      "Rest at the wall if the stroke breaks."
+    ]
+  }
+]

@@ -1,0 +1,81 @@
+{% extends "gym/base.html" %}
+
+{% block title %}Add exercises · Campus Gym{% endblock %}
+{% block main_class %}wide{% endblock %}
+
+{% block content %}
+  <p class="kicker"><a href="{% url 'workout_builder' workout.pk %}">Back to {{ workout.name }}</a></p>
+  <div class="page-head">
+    <div>
+      <h1>Add exercises</h1>
+      <p class="lead">Pick only the movements for {{ workout.name }}. Open a name to read the cues.</p>
+    </div>
+  </div>
+
+  <form class="filters" method="get">
+    <label>Search<input type="search" name="q" value="{{ query }}" placeholder="Bench press"></label>
+    <label>Muscle
+      <select name="muscle">
+        <option value="">All</option>
+        {% for name in muscles %}
+          <option value="{{ name }}" {% if muscle == name %}selected{% endif %}>{{ name }}</option>
+        {% endfor %}
+      </select>
+    </label>
+    <label>Equipment
+      <select name="equipment">
+        <option value="">All</option>
+        {% for name in equipment_choices %}
+          <option value="{{ name }}" {% if equipment == name %}selected{% endif %}>{{ name }}</option>
+        {% endfor %}
+      </select>
+    </label>
+    <label>Difficulty
+      <select name="difficulty">
+        <option value="">All</option>
+        {% for name in difficulties %}
+          <option value="{{ name }}" {% if difficulty == name %}selected{% endif %}>{{ name }}</option>
+        {% endfor %}
+      </select>
+    </label>
+    <button class="button" type="submit">Filter</button>
+  </form>
+
+  {% if not exercises %}
+    <p class="empty">No exercises match that filter.</p>
+  {% endif %}
+
+  <ul class="catalog">
+    {% for exercise in exercises %}
+      <li>
+        <div class="demo-copy">
+          <p class="meta">{{ exercise.muscle }} · {{ exercise.equipment }}{% if exercise.difficulty %} · {{ exercise.difficulty }}{% endif %}</p>
+          <h2>
+            {% if exercise.slug %}
+              <a href="{% url 'exercise_detail' exercise.slug %}">{{ exercise.name }}</a>
+            {% else %}
+              {{ exercise.name }}
+            {% endif %}
+          </h2>
+          {% if exercise.cue_lines %}
+            <p>{{ exercise.cue_lines.0 }}</p>
+          {% endif %}
+          {% if exercise.video %}
+            <video controls playsinline preload="metadata">
+              <source src="{{ exercise.video.url }}">
+            </video>
+          {% endif %}
+          <form method="post" action="{{ request.get_full_path }}">
+            {% csrf_token %}
+            <input type="hidden" name="exercise" value="{{ exercise.pk }}">
+            {% if exercise.pk in added_ids %}
+              <button class="button" type="button" disabled>Added</button>
+            {% else %}
+              <button class="button" type="submit">Add to workout</button>
+            {% endif %}
+          </form>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+{% endblock %}

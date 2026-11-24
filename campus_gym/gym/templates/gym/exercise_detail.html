@@ -1,0 +1,22 @@
+{% extends "gym/base.html" %}
+
+{% block title %}{{ exercise.name }} · Campus Gym{% endblock %}
+
+{% block content %}
+  <p class="kicker"><a href="{% url 'library' %}?muscle={{ exercise.muscle|urlencode }}">{{ exercise.muscle }}</a></p>
+  <h1>{{ exercise.name }}</h1>
+  <p class="meta">{{ exercise.equipment }} · {{ exercise.difficulty }}</p>
+  {% if exercise.secondary %}
+    <p class="lead">Also works {{ exercise.secondary }}.</p>
+  {% endif %}
+  {% if exercise.video %}
+    <video class="detail-video" controls playsinline preload="metadata">
+      <source src="{{ exercise.video.url }}">
+    </video>
+  {% endif %}
+  <ol class="cues">
+    {% for line in exercise.cue_lines %}
+      <li>{{ line }}</li>
+    {% endfor %}
+  </ol>
+{% endblock %}

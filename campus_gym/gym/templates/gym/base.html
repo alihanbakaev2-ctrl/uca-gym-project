@@ -7,18 +7,44 @@
     <title>{% block title %}Campus Gym{% endblock %}</title>
     <link rel="stylesheet" href="{% static 'gym/site.css' %}" />
   </head>
-  <body>
+  <body class="{% if page == 'live' %}is-live{% endif %}">
     <header class="top">
+<<<<<<< Updated upstream
       <a class="mark" href="{% url 'home' %}">Campus Gym</a>
       <nav>
         <a href="{% url 'home' %}" {% if page == "home" %}aria-current="page"{% endif %}>Home</a>
         <a href="{% url 'library' %}" {% if page == "library" %}aria-current="page"{% endif %}>Library</a>
         <a href="{% url 'gym_setup' %}" {% if page == "gym" %}aria-current="page"{% endif %}>Gym</a>
         <a href="{% url 'routines' %}" {% if page == "routines" %}aria-current="page"{% endif %}>Routines</a>
+=======
+      <a class="mark" href="{% url 'workouts' %}">Campus Gym</a>
+      <nav class="top-links">
+        <a href="{% url 'workouts' %}" {% if page == "workouts" %}aria-current="page"{% endif %}>My Workouts</a>
+        <a href="{% url 'library' %}" {% if page == "library" %}aria-current="page"{% endif %}>Library</a>
+        <a href="{% url 'history' %}" {% if page == "history" %}aria-current="page"{% endif %}>History</a>
+        <a href="{% url 'floor' %}" {% if page == "floor" %}aria-current="page"{% endif %}>Floor</a>
+        {% if user.is_authenticated %}
+          <span class="who">{{ user.get_username }}</span>
+          <form class="logout-form" method="post" action="{% url 'logout' %}">
+            {% csrf_token %}
+            <button type="submit">Log out</button>
+          </form>
+        {% else %}
+          <a href="{% url 'login' %}">Log in</a>
+        {% endif %}
+>>>>>>> Stashed changes
       </nav>
     </header>
     <main>
       {% block content %}{% endblock %}
     </main>
+    {% if user.is_authenticated and page != "live" %}
+      <nav class="dock" aria-label="Main">
+        <a href="{% url 'workouts' %}" {% if page == "workouts" %}aria-current="page"{% endif %}>Workouts</a>
+        <a href="{% url 'library' %}" {% if page == "library" %}aria-current="page"{% endif %}>Library</a>
+        <a href="{% url 'history' %}" {% if page == "history" %}aria-current="page"{% endif %}>History</a>
+        <a href="{% url 'floor' %}" {% if page == "floor" %}aria-current="page"{% endif %}>Floor</a>
+      </nav>
+    {% endif %}
   </body>
 </html>

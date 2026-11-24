@@ -1,0 +1,43 @@
+{% extends "gym/base.html" %}
+
+{% block title %}My Workouts · Campus Gym{% endblock %}
+
+{% block content %}
+  <div class="page-head">
+    <div>
+      <p class="kicker">Your training</p>
+      <h1>My Workouts</h1>
+      <p class="lead">Name a session, then fill it from the exercise library.</p>
+    </div>
+    <form class="create-row" method="post" action="{% url 'create_workout' %}">
+      {% csrf_token %}
+      <label class="sr" for="new-workout-name">Workout name</label>
+      <input id="new-workout-name" name="name" maxlength="80" required placeholder="Push Day">
+      <button class="button" type="submit">Create workout</button>
+    </form>
+  </div>
+
+  {% if cards %}
+    <ul class="workout-list">
+      {% for card in cards %}
+        <li>
+          <a href="{% url 'workout_builder' card.workout.pk %}">
+            <strong>{{ card.workout.name }}</strong>
+            <span>
+              {% if card.workout.exercise_count == 1 %}1 exercise{% else %}{{ card.workout.exercise_count }} exercises{% endif %}
+              {% if card.muscles %} · {{ card.muscles|join:", " }}{% endif %}
+            </span>
+          </a>
+          {% if card.workout.exercise_count %}
+            <form method="post" action="{% url 'start_workout' card.workout.pk %}">
+              {% csrf_token %}
+              <button class="button" type="submit">Start workout</button>
+            </form>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p class="empty">No workouts yet. Name one above, then add exercises from the library.</p>
+  {% endif %}
+{% endblock %}

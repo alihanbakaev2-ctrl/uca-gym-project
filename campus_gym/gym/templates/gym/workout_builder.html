@@ -1,0 +1,86 @@
+{% extends "gym/base.html" %}
+
+{% block title %}{{ workout.name }} · Campus Gym{% endblock %}
+
+{% block content %}
+  <p class="kicker"><a href="{% url 'workouts' %}">My Workouts</a></p>
+  <div class="page-head">
+    <div>
+      <h1>Build workout</h1>
+      <p class="lead">Set the work for each exercise, then start when you are on the floor.</p>
+    </div>
+    <div class="row-actions">
+      <a class="button" href="{% url 'add_exercises' workout.pk %}">Add exercises</a>
+      {% if items %}
+        <form method="post" action="{% url 'start_workout' workout.pk %}">
+          {% csrf_token %}
+          <button class="button accent" type="submit">Start workout</button>
+        </form>
+      {% endif %}
+    </div>
+  </div>
+
+  <form class="builder" method="post">
+    {% csrf_token %}
+    <label for="workout-name">Workout name</label>
+    <input id="workout-name" name="name" maxlength="80" required value="{{ workout.name }}">
+
+    {% if items %}
+      <ol class="plan">
+        {% for item in items %}
+          <li>
+            <div class="plan-title">
+              <strong>{{ item.exercise.name }}</strong>
+              <span>{{ item.exercise.muscle }} · {{ item.exercise.equipment }}</span>
+            </div>
+            <label>Sets<input name="sets-{{ item.pk }}" type="number" min="1" max="30" value="{{ item.sets }}" inputmode="numeric"></label>
+            <label>Reps<input name="reps-{{ item.pk }}" type="number" min="1" max="30" value="{{ item.reps }}" inputmode="numeric"></label>
+            <label>Kg<input name="weight-{{ item.pk }}" type="number" min="0" max="999" step="0.5" value="{{ item.weight|default_if_none:'' }}" inputmode="decimal"></label>
+            <label>Rest<input name="rest-{{ item.pk }}" type="number" min="0" max="600" value="{{ item.rest_seconds }}" inputmode="numeric"></label>
+          </li>
+        {% endfor %}
+      </ol>
+    {% else %}
+      <p class="empty">This workout is empty. Add exercises from the library.</p>
+    {% endif %}
+
+    <div class="builder-actions">
+      <button class="button" type="submit" name="action" value="save">Save workout</button>
+    </div>
+  </form>
+
+  {% if items %}
+    <ul class="remove-list">
+      {% for item in items %}
+        <li>
+          <form method="post">
+            {% csrf_token %}
+            <button type="submit" name="action" value="up">Up</button>
+            <input type="hidden" name="item" value="{{ item.pk }}">
+          </form>
+          <form method="post">
+            {% csrf_token %}
+            <input type="hidden" name="item" value="{{ item.pk }}">
+            <button type="submit" name="action" value="down">Down</button>
+          </form>
+          <form method="post">
+            {% csrf_token %}
+            <input type="hidden" name="item" value="{{ item.pk }}">
+            <button type="submit" name="action" value="remove">Remove {{ item.exercise.name }}</button>
+          </form>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+  <div class="row-actions">
+    <form method="post">
+      {% csrf_token %}
+      <button class="button ghost" type="submit" name="action" value="duplicate">Duplicate</button>
+    </form>
+    <form method="post">
+      {% csrf_token %}
+      <button class="danger-button" type="submit" name="action" value="delete">Delete workout</button>
+    </form>
+  </div>
+{% endblock %}

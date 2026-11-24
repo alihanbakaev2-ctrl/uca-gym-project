@@ -1,0 +1,73 @@
+{% extends "gym/base.html" %}
+
+{% block title %}Exercise library · Campus Gym{% endblock %}
+{% block main_class %}wide{% endblock %}
+
+{% block content %}
+  <p class="kicker">Exercise database</p>
+  <h1>Library</h1>
+  <p class="lead">Browse by muscle, then search or filter. Every movement has form cues.</p>
+
+  <ul class="group-grid">
+    {% for group in groups %}
+      <li>
+        <a href="{% url 'library' %}?muscle={{ group.name|urlencode }}">
+          <span class="mark-tile" aria-hidden="true">{{ group.name|slice:":2" }}</span>
+          <strong>{{ group.name }}</strong>
+          <span>{{ group.count }} exercises</span>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <form class="filters" method="get">
+    <label>Search<input type="search" name="q" value="{{ query }}" placeholder="Squat"></label>
+    <label>Muscle
+      <select name="muscle">
+        <option value="">All</option>
+        {% for name in muscles %}
+          <option value="{{ name }}" {% if muscle == name %}selected{% endif %}>{{ name }}</option>
+        {% endfor %}
+      </select>
+    </label>
+    <label>Equipment
+      <select name="equipment">
+        <option value="">All</option>
+        {% for name in equipment_choices %}
+          <option value="{{ name }}" {% if equipment == name %}selected{% endif %}>{{ name }}</option>
+        {% endfor %}
+      </select>
+    </label>
+    <label>Difficulty
+      <select name="difficulty">
+        <option value="">All</option>
+        {% for name in difficulties %}
+          <option value="{{ name }}" {% if difficulty == name %}selected{% endif %}>{{ name }}</option>
+        {% endfor %}
+      </select>
+    </label>
+    <button class="button" type="submit">Filter</button>
+  </form>
+
+  <ul class="catalog">
+    {% for exercise in exercises %}
+      <li>
+        <div class="text-card">
+          <p class="meta">{{ exercise.muscle }} · {{ exercise.equipment }}{% if exercise.difficulty %} · {{ exercise.difficulty }}{% endif %}</p>
+          <h2>
+            {% if exercise.slug %}
+              <a href="{% url 'exercise_detail' exercise.slug %}">{{ exercise.name }}</a>
+            {% else %}
+              {{ exercise.name }}
+            {% endif %}
+          </h2>
+          {% if exercise.secondary %}
+            <p>Also hits {{ exercise.secondary }}</p>
+          {% endif %}
+        </div>
+      </li>
+    {% empty %}
+      <li><p class="empty">Nothing matches.</p></li>
+    {% endfor %}
+  </ul>
+{% endblock %}

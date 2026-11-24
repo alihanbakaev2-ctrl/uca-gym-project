@@ -23,7 +23,15 @@ On Windows, activate with `.venv\Scripts\activate`.
 | `gym/` | The app: views, templates, static CSS |
 | `gym/models.py` | Empty on purpose |
 
+<<<<<<< Updated upstream
 Routes: `/`, `/library/`, `/gym/`, `/routines/`, `/admin/`.
+=======
+Routes: `/login/`, `/workouts/`, `/floor/`, `/workouts/<id>/`, `/workouts/<id>/exercises/`, `/admin/`.
+
+The exercise library lives in `gym/data/exercises.json` (15 movements for each muscle group). Edit that file and restart the app to extend it. **Floor** is still there for a personal exercise with your own video.
+
+Sign in with a Django user. One account is already there: username `alikhan`, password `gymfloor`.
+>>>>>>> Stashed changes
 
 ## Work as a pair
 
