@@ -1,0 +1,46 @@
+{% extends "gym/base.html" %}
+
+{% block title %}Floor · Campus Gym{% endblock %}
+
+{% block content %}
+  <p class="kicker">Campus floor</p>
+  <h1>Your exercises</h1>
+  <p class="lead">Add only the stations you want. Each one needs a video you filmed or own.</p>
+
+  <form class="builder" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {% for field in form %}
+      <div class="field">
+        <label for="{{ field.id_for_label }}">{{ field.label }}</label>
+        {{ field }}
+        {% if field.errors %}
+          <p class="field-error" role="alert">{{ field.errors|striptags }}</p>
+        {% endif %}
+      </div>
+    {% endfor %}
+    <div class="builder-actions">
+      <button class="button" type="submit">Add exercise</button>
+    </div>
+  </form>
+
+  {% if exercises %}
+    <ul class="workout-list">
+      {% for exercise in exercises %}
+        <li class="floor-row">
+          <div>
+            <strong>{{ exercise.name }}</strong>
+            <span>{{ exercise.muscle }} · {{ exercise.equipment }}</span>
+          </div>
+          <form method="post">
+            {% csrf_token %}
+            <input type="hidden" name="action" value="remove">
+            <input type="hidden" name="exercise" value="{{ exercise.pk }}">
+            <button type="submit">Remove</button>
+          </form>
+        </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p class="empty">The floor is empty. Add an exercise above and it will show up when you build a workout.</p>
+  {% endif %}
+{% endblock %}

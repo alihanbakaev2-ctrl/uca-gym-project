@@ -126,3 +126,541 @@ h1 {
   min-height: 2.75rem;
   font-weight: 650;
 }
+
+.who {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.75rem;
+  padding: 0 0.35rem 0 0.55rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.logout-form {
+  margin: 0;
+}
+
+.logout-form button {
+  min-height: 2.75rem;
+  padding: 0 0.8rem;
+  border: 0;
+  border-radius: 0.4rem;
+  background: transparent;
+  color: var(--muted);
+  font: inherit;
+  cursor: pointer;
+}
+
+.logout-form button:hover {
+  color: var(--ink);
+  background: var(--paper);
+}
+
+.login-body {
+  min-height: 100vh;
+  background: #14120e;
+  color: var(--paper);
+}
+
+.login-stage {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 1rem 1rem 1.25rem;
+}
+
+.login-backdrop {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 8%;
+}
+
+.login-scrim {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(20, 18, 14, 0.08) 0%,
+    rgba(20, 18, 14, 0.12) 46%,
+    rgba(20, 18, 14, 0.78) 100%
+  );
+}
+
+.login-card {
+  position: relative;
+  z-index: 1;
+  width: min(24.5rem, 100%);
+  margin: 0;
+  padding: 1.35rem 1.2rem 1.1rem;
+  background: var(--paper);
+  color: var(--ink);
+  border-radius: 1.1rem;
+  box-shadow: 0 22px 50px rgba(12, 10, 8, 0.38);
+}
+
+.login-card h1 {
+  font-size: 2rem;
+}
+
+.login-card .lead {
+  margin-top: 0.55rem;
+}
+
+.login-card form {
+  margin-top: 0.35rem;
+}
+
+.field {
+  margin-top: 0.95rem;
+}
+
+.field label {
+  display: block;
+  font-size: 0.92rem;
+  font-weight: 650;
+}
+
+.login-card input[type="text"],
+.login-card input[type="password"] {
+  width: 100%;
+  min-height: 2.75rem;
+  margin-top: 0.35rem;
+  padding: 0 0.8rem;
+  border: 1px solid var(--line) !important;
+  border-radius: 0.55rem;
+  background-color: #fff !important;
+  color: var(--ink);
+  caret-color: var(--ink);
+  font: inherit;
+  box-shadow: 0 0 0 1000px #fff inset !important;
+  -webkit-box-shadow: 0 0 0 1000px #fff inset !important;
+}
+
+.login-card input[type="text"]:focus,
+.login-card input[type="password"]:focus {
+  border-color: var(--ink);
+  background-color: #fff;
+  outline: 2px solid var(--ink);
+  outline-offset: 2px;
+  box-shadow: 0 0 0 1000px #fff inset;
+}
+
+.login-card input:-webkit-autofill,
+.login-card input:-webkit-autofill:hover,
+.login-card input:-webkit-autofill:focus,
+.login-card input:-webkit-autofill:active {
+  -webkit-text-fill-color: var(--ink) !important;
+  caret-color: var(--ink);
+  border: 1px solid var(--line) !important;
+  -webkit-background-clip: padding-box !important;
+  background-clip: padding-box !important;
+  box-shadow: 0 0 0 1000px #fff inset !important;
+  -webkit-box-shadow: 0 0 0 1000px #fff inset !important;
+  transition: background-color 86400s ease-out 0s;
+}
+
+.login-card input:autofill,
+.login-card input:autofill:hover,
+.login-card input:autofill:focus {
+  -webkit-text-fill-color: var(--ink) !important;
+  caret-color: var(--ink);
+  border: 1px solid var(--line) !important;
+  box-shadow: 0 0 0 1000px #fff inset !important;
+  transition: background-color 86400s ease-out 0s;
+}
+
+.login-card input:-webkit-autofill:focus,
+.login-card input:autofill:focus {
+  border-color: var(--ink) !important;
+}
+
+.login-card button:focus-visible,
+.login-card a:focus-visible,
+.logout-form button:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 2px;
+}
+
+.login-card button[type="submit"] {
+  width: 100%;
+  min-height: 2.75rem;
+  margin-top: 1.2rem;
+  border: 0;
+  border-radius: 0.55rem;
+  background: var(--ink);
+  color: var(--paper);
+  font: inherit;
+  font-weight: 650;
+  cursor: pointer;
+}
+
+.login-error,
+.field-error {
+  margin: 0.7rem 0 0;
+  color: #6b2e1a;
+  font-size: 0.95rem;
+}
+
+.login-error {
+  padding: 0.7rem 0.8rem;
+  background: #f6e6dc;
+  border-radius: 0.5rem;
+}
+
+.login-error ul {
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+.login-foot {
+  margin: 0.85rem 0 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.login-foot a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.75rem;
+  font-weight: 650;
+  text-decoration: none;
+}
+
+@media (min-width: 840px) {
+  .login-stage {
+    align-items: center;
+    justify-content: flex-end;
+    padding: 2.5rem;
+  }
+
+  .login-backdrop {
+    object-position: center 12%;
+  }
+
+  .login-scrim {
+    background: linear-gradient(
+      90deg,
+      rgba(20, 18, 14, 0.02) 0%,
+      rgba(20, 18, 14, 0.08) 46%,
+      rgba(20, 18, 14, 0.62) 100%
+    );
+  }
+
+  .login-card {
+    padding: 1.7rem 1.55rem 1.25rem;
+  }
+}
+
+main.wide {
+  max-width: 72rem;
+}
+
+.page-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1rem 1.5rem;
+}
+
+.page-head h1 {
+  margin-top: 0.15rem;
+}
+
+.page-head .lead {
+  max-width: 36rem;
+}
+
+.kicker a {
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.kicker a:hover {
+  color: var(--ink);
+}
+
+.button,
+button.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.75rem;
+  padding: 0 1rem;
+  border: 0;
+  border-radius: 0.55rem;
+  background: var(--ink);
+  color: var(--paper);
+  font: inherit;
+  font-weight: 650;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button:disabled {
+  background: var(--line);
+  color: var(--muted);
+  cursor: default;
+}
+
+.notices {
+  list-style: none;
+  margin: 0 0 1.25rem;
+  padding: 0;
+}
+
+.notices li {
+  padding: 0.7rem 0.85rem;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 0.6rem;
+}
+
+.workout-list {
+  list-style: none;
+  margin: 1.75rem 0 0;
+  padding: 0;
+  display: grid;
+  gap: 0.75rem;
+}
+
+.workout-list a {
+  display: block;
+  padding: 1rem 1.1rem;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 0.9rem;
+  text-decoration: none;
+}
+
+.workout-list strong {
+  display: block;
+  font-size: 1.15rem;
+}
+
+.workout-list span,
+.plan span,
+.meta {
+  display: block;
+  margin-top: 0.2rem;
+  color: var(--muted);
+}
+
+.empty {
+  margin: 1.5rem 0 0;
+  padding: 1.1rem 1.15rem;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 0.9rem;
+  color: var(--muted);
+}
+
+.builder {
+  margin-top: 1.5rem;
+}
+
+.builder > label,
+.builder .field label,
+.plan label {
+  display: block;
+  font-size: 0.92rem;
+  font-weight: 650;
+}
+
+.builder > input,
+.builder .field input,
+.plan input {
+  width: 100%;
+  min-height: 2.75rem;
+  margin-top: 0.35rem;
+  padding: 0 0.8rem;
+  border: 1px solid var(--line);
+  border-radius: 0.55rem;
+  background: #fff;
+  color: var(--ink);
+  font: inherit;
+}
+
+.builder .field input[type="file"] {
+  padding: 0.55rem 0.8rem;
+  background: var(--paper);
+}
+
+.floor-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 1.1rem;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 0.9rem;
+}
+
+.floor-row button {
+  min-height: 2.75rem;
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  font: inherit;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.plan {
+  list-style: none;
+  margin: 1.25rem 0 0;
+  padding: 0;
+  display: grid;
+  gap: 0.75rem;
+}
+
+.plan li {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.75rem;
+  padding: 1rem;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 0.9rem;
+}
+
+.plan label {
+  font-weight: 650;
+}
+
+.builder-actions {
+  margin-top: 1rem;
+}
+
+.remove-list {
+  list-style: none;
+  margin: 0.75rem 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 1rem;
+}
+
+.remove-list button,
+.danger button {
+  min-height: 2.75rem;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  font: inherit;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.danger {
+  margin-top: 1.5rem;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 1.25rem;
+}
+
+.filters a {
+  min-height: 2.75rem;
+  display: inline-flex;
+  align-items: center;
+  padding: 0 0.85rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--paper);
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.filters a[aria-current="page"] {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--paper);
+}
+
+.catalog {
+  list-style: none;
+  margin: 1.25rem 0 0;
+  padding: 0;
+  display: grid;
+  gap: 1rem;
+}
+
+.catalog li {
+  display: grid;
+  gap: 0.85rem;
+  padding: 0.8rem;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+}
+
+.demo {
+  margin: 0;
+}
+
+.demo video {
+  display: block;
+  width: 100%;
+  height: 16rem;
+  object-fit: cover;
+  border-radius: 0.7rem;
+  background: #17140f;
+}
+
+.demo figcaption {
+  margin-top: 0.4rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.demo-copy h2 {
+  margin: 0.15rem 0 0;
+  font-size: 1.25rem;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+.demo-copy p {
+  margin: 0.45rem 0 0;
+}
+
+.demo-copy form {
+  margin-top: 0.9rem;
+}
+
+.builder input:focus-visible,
+.plan input:focus-visible,
+.button:focus-visible,
+.filters a:focus-visible,
+.workout-list a:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 2px;
+}
+
+@media (min-width: 720px) {
+  .plan li {
+    grid-template-columns: 1fr 5.5rem 5.5rem;
+    align-items: end;
+  }
+
+  .catalog {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1100px) {
+  .catalog {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

@@ -6,4 +6,5 @@ db.sqlite3
 staticfiles/
 .DS_Store
 gym/campus-gym.zip
+media/
 

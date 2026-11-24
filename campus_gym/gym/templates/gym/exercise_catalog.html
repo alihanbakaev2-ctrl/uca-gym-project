@@ -1,0 +1,61 @@
+{% extends "gym/base.html" %}
+
+{% block title %}Add exercises · Campus Gym{% endblock %}
+{% block main_class %}wide{% endblock %}
+
+{% block content %}
+  <p class="kicker"><a href="{% url 'workout_builder' workout.pk %}">Back to {{ workout.name }}</a></p>
+  <div class="page-head">
+    <div>
+      <h1>Campus exercises</h1>
+      <p class="lead">Every station on the floor. Play a demonstration, then add it to {{ workout.name }}.</p>
+    </div>
+  </div>
+
+  {% if muscles %}
+    <div class="filters" role="tablist" aria-label="Muscle group">
+      <a href="{% url 'add_exercises' workout.pk %}" {% if not muscle %}aria-current="page"{% endif %}>All</a>
+      {% for name in muscles %}
+        <a href="{% url 'add_exercises' workout.pk %}?muscle={{ name|urlencode }}" {% if muscle == name %}aria-current="page"{% endif %}>{{ name }}</a>
+      {% endfor %}
+    </div>
+  {% endif %}
+
+  {% if not exercises %}
+    <p class="empty">
+      {% if muscle %}
+        Nothing for {{ muscle }}.
+      {% else %}
+        No exercises here yet.
+        <a href="{% url 'floor' %}">Add the ones you want</a>
+        and attach your own video.
+      {% endif %}
+    </p>
+  {% endif %}
+
+  <ul class="catalog">
+    {% for exercise in exercises %}
+      <li>
+        <figure class="demo">
+          <video controls playsinline preload="metadata">
+            <source src="{{ exercise.video.url }}">
+          </video>
+        </figure>
+        <div class="demo-copy">
+          <p class="meta">{{ exercise.muscle }} · {{ exercise.equipment }}</p>
+          <h2>{{ exercise.name }}</h2>
+          <p>{{ exercise.cue }}</p>
+          <form method="post" action="{{ request.get_full_path }}">
+            {% csrf_token %}
+            <input type="hidden" name="exercise" value="{{ exercise.pk }}">
+            {% if exercise.pk in added_ids %}
+              <button class="button" type="button" disabled>Added</button>
+            {% else %}
+              <button class="button" type="submit">Add to workout</button>
+            {% endif %}
+          </form>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+{% endblock %}

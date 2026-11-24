@@ -1,0 +1,67 @@
+{% extends "gym/base.html" %}
+
+{% block title %}{{ workout.name }} · Campus Gym{% endblock %}
+
+{% block content %}
+  <p class="kicker"><a href="{% url 'workouts' %}">My Workouts</a></p>
+  <div class="page-head">
+    <div>
+      <h1>Build workout</h1>
+      <p class="lead">Name the session, then add the exercises you want on the floor.</p>
+    </div>
+    <a class="button" href="{% url 'add_exercises' workout.pk %}">Add exercises</a>
+  </div>
+
+  <form class="builder" method="post">
+    {% csrf_token %}
+    <label for="workout-name">Workout name</label>
+    <input id="workout-name" name="name" maxlength="80" required value="{{ workout.name }}">
+
+    {% if items %}
+      <ol class="plan">
+        {% for item in items %}
+          <li>
+            <div>
+              <strong>{{ item.exercise.name }}</strong>
+              <span>{{ item.exercise.muscle }} · {{ item.exercise.equipment }}</span>
+            </div>
+            <label>
+              Sets
+              <input name="sets-{{ item.pk }}" type="number" min="1" max="30" value="{{ item.sets }}" inputmode="numeric">
+            </label>
+            <label>
+              Reps
+              <input name="reps-{{ item.pk }}" type="number" min="1" max="30" value="{{ item.reps }}" inputmode="numeric">
+            </label>
+          </li>
+        {% endfor %}
+      </ol>
+    {% else %}
+      <p class="empty">This workout is empty. Add exercises from the campus list.</p>
+    {% endif %}
+
+    <div class="builder-actions">
+      <button class="button" type="submit" name="action" value="save">Save workout</button>
+    </div>
+  </form>
+
+  {% if items %}
+    <ul class="remove-list">
+      {% for item in items %}
+        <li>
+          <form method="post">
+            {% csrf_token %}
+            <input type="hidden" name="action" value="remove">
+            <input type="hidden" name="item" value="{{ item.pk }}">
+            <button type="submit">Remove {{ item.exercise.name }}</button>
+          </form>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+  <form class="danger" method="post">
+    {% csrf_token %}
+    <button type="submit" name="action" value="delete">Delete workout</button>
+  </form>
+{% endblock %}

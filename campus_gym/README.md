@@ -1,7 +1,6 @@
 # Campus Gym
 
-Django skeleton for a campus rec-center exercise app. Two people, one repo.
-Pages exist. Models and workout logic do not — those get decided next.
+Campus rec-center app. A student signs in, keeps their own workouts, and adds exercises from the floor. Each exercise has a demonstration video.
 
 ## Run it
 
@@ -21,9 +20,14 @@ On Windows, activate with `.venv\Scripts\activate`.
 | --- | --- |
 | `config/` | Project settings and root URLs |
 | `gym/` | The app: views, templates, static CSS |
-| `gym/models.py` | Empty on purpose |
+| `gym/models.py` | Exercises, workouts, and the exercises inside a workout |
+| `media/exercises/` | Video files you upload from the Floor page |
 
-Routes: `/`, `/library/`, `/gym/`, `/routines/`, `/admin/`.
+Routes: `/login/`, `/workouts/`, `/floor/`, `/workouts/<id>/`, `/workouts/<id>/exercises/`, `/admin/`.
+
+Open **Floor** after signing in. Add only the exercises you want, and attach your own `.mp4`, `.webm`, or `.mov` for each one. Those are the only exercises a workout can include.
+
+Sign in with a Django user. One account is already there: username `alikhan`, password `gymfloor`.
 
 ## Work as a pair
 

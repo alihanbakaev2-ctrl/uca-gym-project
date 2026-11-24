@@ -9,15 +9,29 @@
   </head>
   <body>
     <header class="top">
-      <a class="mark" href="{% url 'home' %}">Campus Gym</a>
+      <a class="mark" href="{% url 'workouts' %}">Campus Gym</a>
       <nav>
-        <a href="{% url 'home' %}" {% if page == "home" %}aria-current="page"{% endif %}>Home</a>
-        <a href="{% url 'library' %}" {% if page == "library" %}aria-current="page"{% endif %}>Library</a>
-        <a href="{% url 'gym_setup' %}" {% if page == "gym" %}aria-current="page"{% endif %}>Gym</a>
-        <a href="{% url 'routines' %}" {% if page == "routines" %}aria-current="page"{% endif %}>Routines</a>
+        <a href="{% url 'workouts' %}" {% if page == "workouts" %}aria-current="page"{% endif %}>My Workouts</a>
+        <a href="{% url 'floor' %}" {% if page == "floor" %}aria-current="page"{% endif %}>Floor</a>
+        {% if user.is_authenticated %}
+          <span class="who">{{ user.get_username }}</span>
+          <form class="logout-form" method="post" action="{% url 'logout' %}">
+            {% csrf_token %}
+            <button type="submit">Log out</button>
+          </form>
+        {% else %}
+          <a href="{% url 'login' %}">Log in</a>
+        {% endif %}
       </nav>
     </header>
-    <main>
+    <main class="{% block main_class %}{% endblock %}">
+      {% if messages %}
+        <ul class="notices">
+          {% for message in messages %}
+            <li>{{ message }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
       {% block content %}{% endblock %}
     </main>
   </body>

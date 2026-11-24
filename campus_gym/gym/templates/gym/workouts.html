@@ -1,0 +1,38 @@
+{% extends "gym/base.html" %}
+
+{% block title %}My Workouts · Campus Gym{% endblock %}
+
+{% block content %}
+  <div class="page-head">
+    <div>
+      <p class="kicker">Student floor</p>
+      <h1>My Workouts</h1>
+      <p class="lead">The sessions you've built for the campus gym.</p>
+    </div>
+    <form method="post" action="{% url 'create_workout' %}">
+      {% csrf_token %}
+      <button class="button" type="submit">Create workout</button>
+    </form>
+  </div>
+
+  {% if workouts %}
+    <ul class="workout-list">
+      {% for workout in workouts %}
+        <li>
+          <a href="{% url 'workout_builder' workout.pk %}">
+            <strong>{{ workout.name }}</strong>
+            <span>
+              {% if workout.exercise_count == 1 %}
+                1 exercise
+              {% else %}
+                {{ workout.exercise_count }} exercises
+              {% endif %}
+            </span>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p class="empty">No workouts yet. Create one and add exercises from the campus floor.</p>
+  {% endif %}
+{% endblock %}

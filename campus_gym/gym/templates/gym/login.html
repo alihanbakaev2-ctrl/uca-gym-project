@@ -1,0 +1,52 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sign in · Campus Gym</title>
+    <link rel="stylesheet" href="{% static 'gym/site.css' %}?v=4" />
+  </head>
+  <body class="login-body">
+    <div class="login-stage">
+      <img
+        class="login-backdrop"
+        src="{% static 'gym/arnold-login-bg.jpg' %}"
+        alt="Arnold Schwarzenegger standing in the campus weight room"
+      />
+      <div class="login-scrim" aria-hidden="true"></div>
+      <main class="login-card">
+        <p class="kicker">Campus rec center</p>
+        <h1>Sign in</h1>
+        <p class="lead">Your floor pass. Arnold is already on the rack behind you.</p>
+        <form method="post" action="{% url 'login' %}" novalidate>
+          {% csrf_token %}
+          {% if next %}
+            <input type="hidden" name="next" value="{{ next }}" />
+          {% endif %}
+          {% if form.non_field_errors %}
+            <div class="login-error" role="alert">
+              {{ form.non_field_errors }}
+            </div>
+          {% endif %}
+          <div class="field">
+            <label for="{{ form.username.id_for_label }}">Username</label>
+            {{ form.username }}
+            {% if form.username.errors %}
+              <p class="field-error" role="alert">{{ form.username.errors|striptags }}</p>
+            {% endif %}
+          </div>
+          <div class="field">
+            <label for="{{ form.password.id_for_label }}">Password</label>
+            {{ form.password }}
+            {% if form.password.errors %}
+              <p class="field-error" role="alert">{{ form.password.errors|striptags }}</p>
+            {% endif %}
+          </div>
+          <button type="submit">Sign in</button>
+        </form>
+        <p class="login-foot">Campus accounts only. Ask the desk if you need one.</p>
+      </main>
+    </div>
+  </body>
+</html>
